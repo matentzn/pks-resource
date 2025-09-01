@@ -1,5 +1,5 @@
 ## Overview of Matrix KG Primary Knowledge Sources
-
+                                   
 This page is automatically generated with curated information about primary knowledge sources
 leveraged in the MATRIX Knowledge Graph, mainly regarding licensing information and 
 potential relevancy assessments for drug repurposing.
@@ -17,8 +17,8 @@ _SemMedDB is a repository of semantic predications (subject-predicate-object tri
 
 
 **Links**:
-- https://lhncbc.nlm.nih.gov/temp/SemRep_SemMedDB_SKR/SemMedDB_download.html
 - https://github.com/NCATSTranslator/Translator-All/wiki/SemMedDB
+- https://lhncbc.nlm.nih.gov/temp/SemRep_SemMedDB_SKR/SemMedDB_download.html
 
 
 #### License information
@@ -30,7 +30,7 @@ _SemMedDB is a repository of semantic predications (subject-predicate-object tri
 #### Review information for this resource
 
 
-<details></summary>Review information</summary>
+<details><summary>Expand to see detailed review</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -49,8 +49,8 @@ _STRING is a database of known and predicted protein-protein interactions. The i
 
 
 **Links**:
-- https://string-db.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/STRING
+- https://string-db.org/
 - https://string-db.org
 
 
@@ -64,7 +64,7 @@ _STRING is a database of known and predicted protein-protein interactions. The i
 #### Review information for this resource
 
 
-<details></summary>Review information</summary>
+<details><summary>Expand to see detailed review</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -211,7 +211,7 @@ _DISEASES is a weekly updated web resource that integrates evidence on disease-g
 #### Review information for this resource
 
 
-<details></summary>Review information</summary>
+<details><summary>Expand to see detailed review</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -252,8 +252,8 @@ _A freely available electronic database containing detailed information about sm
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/HMDB
 - http://www.hmdb.ca
+- https://github.com/NCATSTranslator/Translator-All/wiki/HMDB
 
 
 #### License information
@@ -321,8 +321,8 @@ _Stub Resource page for ncit. This page was automatically generated because it w
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/NCIT
 - https://ncithesaurus-stage.nci.nih.gov
+- https://github.com/NCATSTranslator/Translator-All/wiki/NCIT
 
 
 #### License information
@@ -347,8 +347,8 @@ _Bgee is a database for retrieval and comparison of gene expression patterns acr
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Bgee
-- https://www.bgee.org/
 - https://www.bgee.org
+- https://www.bgee.org/
 
 
 #### License information
@@ -372,8 +372,8 @@ _Hetionet is an integrative network of biomedical knowledge assembled from 29 di
 
 
 **Links**:
-- https://het.io/
 - https://github.com/NCATSTranslator/Translator-All/wiki/Hetionet
+- https://het.io/
 
 
 #### License information
@@ -456,7 +456,7 @@ _The Library of Integrated Network-based Cellular Signatures (LINCS) is a compre
 #### Review information for this resource
 
 
-<details></summary>Review information</summary>
+<details><summary>Expand to see detailed review</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -475,9 +475,9 @@ _Reactome from Biopax_
 
 
 **Links**:
-- https://reactome.org
-- http://www.reactome.org
 - https://github.com/NCATSTranslator/Translator-All/wiki/reactome
+- http://www.reactome.org
+- https://reactome.org
 
 
 #### License information
@@ -513,7 +513,7 @@ _No description._
 #### Review information for this resource
 
 
-<details></summary>Review information</summary>
+<details><summary>Expand to see detailed review</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -577,9 +577,9 @@ _OMIM (Online Mendelian Inheritance in Man) is a continuously updated, expert-cu
 
 
 **Links**:
+- https://www.omim.org/
 - https://www.omim.org
 - https://github.com/NCATSTranslator/Translator-All/wiki/OMIM
-- https://www.omim.org/
 
 
 #### License information
@@ -641,7 +641,7 @@ _a freely available dictionary of molecular entities focused on ‘small’ chem
 #### Review information for this resource
 
 
-<details></summary>Review information</summary>
+<details><summary>Expand to see detailed review</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -840,9 +840,9 @@ _A robust, publicly available database that aims to advance understanding about 
 
 
 **Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/CTD
 - http://ctdbase.org
 - https://ctdbase.org/
-- https://github.com/NCATSTranslator/Translator-All/wiki/CTD
 
 
 #### License information
@@ -889,8 +889,8 @@ _Orphanet is a unique resource for information and data on rare diseases and orp
 
 
 **Links**:
-- https://www.orpha.net
 - https://www.orpha.net/
+- https://www.orpha.net
 
 
 #### License information
@@ -927,7 +927,7 @@ _MGI is the international database resource for the laboratory mouse, providing 
 #### Review information for this resource
 
 
-<details></summary>Review information</summary>
+<details><summary>Expand to see detailed review</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -1081,8 +1081,8 @@ _The Orphanet Rare Disease Ontology (ORDO) is an open-access ontology developed 
 
 
 **Links**:
-- https://www.orphadata.com/ordo/
 - https://github.com/NCATSTranslator/Translator-All/wiki/Orphanet-Rare-Disease-Ontology
+- https://www.orphadata.com/ordo/
 
 
 #### License information
@@ -1104,8 +1104,8 @@ _UniProt Protein Knowledge Base_
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/UniProt
 - https://www.uniprot.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/UniProt
 
 
 #### License information
@@ -1150,8 +1150,8 @@ _information on drug-gene interactions and druggable genes from publications, da
 
 
 **Links**:
-- https://dgidb.org
 - https://github.com/NCATSTranslator/Translator-All/wiki/dgidb
+- https://dgidb.org
 
 
 #### License information
@@ -1217,8 +1217,8 @@ _The Cell Ontology (CL) is a structured controlled vocabulary for cell types in 
 
 
 **Links**:
-- https://cell-ontology.github.io/
 - https://github.com/NCATSTranslator/Translator-All/wiki/CL
+- https://cell-ontology.github.io/
 
 
 #### License information
@@ -1240,8 +1240,8 @@ _HGNC is the HUGO Gene Nomenclature Committee. It is a resource for approved hum
 
 
 **Links**:
-- https://www.genenames.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/HGNC
+- https://www.genenames.org/
 
 
 #### License information
@@ -1285,9 +1285,9 @@ _Online drug information resource created and maintained by Division of Translat
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/DrugCentral
 - http://drugcentral.org
 - https://drugcentral.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/DrugCentral
 
 
 #### License information
@@ -1605,9 +1605,9 @@ _The Saccharomyces Genome Database (SGD) project collects information and mainta
 
 
 **Links**:
-- https://www.yeastgenome.org/
 - https://yeastgenome.org/
 - http://www.yeastgenome.org/
+- https://www.yeastgenome.org/
 
 
 #### License information
@@ -1676,8 +1676,8 @@ _An expert-knowledge_assertion resource of ligand-activity-target relationships,
 
 
 **Links**:
-- https://www.guidetopharmacology.org
 - https://github.com/NCATSTranslator/Translator-All/wiki/GtoPdb
+- https://www.guidetopharmacology.org
 
 
 #### License information
@@ -1743,8 +1743,8 @@ _RepoDB is a standard dataset of drug repositioning successes and failures  that
 
 
 **Links**:
-- https://unmtid-shinyapps.net/shiny/repodb/
 - https://github.com/NCATSTranslator/Translator-All/wiki/repoDB
+- https://unmtid-shinyapps.net/shiny/repodb/
 
 
 #### License information
@@ -1832,8 +1832,8 @@ _The RGD API_
 
 
 **Links**:
-- http://rgd.mcw.edu
 - https://rgd.mcw.edu/
+- http://rgd.mcw.edu
 
 
 #### License information
@@ -1989,8 +1989,8 @@ _Phenotype And Trait Ontology (PATO) is an ontology of phenotypic qualities (pro
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/PATO
 - https://github.com/pato-ontology/pato/
+- https://github.com/NCATSTranslator/Translator-All/wiki/PATO
 
 
 #### License information
