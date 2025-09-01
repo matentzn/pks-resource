@@ -15,7 +15,11 @@ This internally curated information is augmented with information from three ext
 
 _SemMedDB is a repository of semantic predications (subject-predicate-object triples) extracted from biomedical literature by SemRep, a natural language processing system. It contains over 130 million semantic predications extracted from more than 37 million PubMed citations, supporting biomedical knowledge discovery, literature-based discovery, and clinical applications._
 
-- **URL**: No URL
+
+**Links**:
+- https://lhncbc.nlm.nih.gov/temp/SemRep_SemMedDB_SKR/SemMedDB_download.html
+- https://github.com/NCATSTranslator/Translator-All/wiki/SemMedDB
+
 
 #### License information
 
@@ -26,6 +30,7 @@ _SemMedDB is a repository of semantic predications (subject-predicate-object tri
 #### Review information for this resource
 
 
+<details></summary>Review information</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -34,14 +39,20 @@ Review information was generated specifically for the Matrix project and may not
    - Rubric: `Medium` - Conditional: with condition = “only use curated subsets (e.g., TREATS, INHIBITS) and filter by frequency/confidence
 - **Domain Coverage**: `2` - Entities: drug,target,disease via UMLS CUIs; Relations: TREATS, INHIBITS, ASSOCIATED_WITH (~30 predicate types). Rich coverage but many edges generic/ambiguous.
 - **Source Scope**: `3` - Broad, cross-disease; >21M PubMed citations; 57.6M predications; thousands of drugs, diseases, genes; multi-relation subtypes
-- **Drugrepurposing utility**: `1` - Direct edges: TREATS, INHIBITS, CAUSES, etc. present but NLP-extracted, noisy; predicates often generic; PubMed links but no confidence scores; precision ~70–80% → heavy filtering required
+- **Drug Repurposing Utility**: `1` - Direct edges: TREATS, INHIBITS, CAUSES, etc. present but NLP-extracted, noisy; predicates often generic; PubMed links but no confidence scores; precision ~70–80% → heavy filtering required
+<details>
 
 
 ### Source: Search Tool for the Retrieval of Interacting Genes/Proteins (string)
 
 _STRING is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations derived from computational prediction, knowledge transfer between organisms, and interactions aggregated from other primary databases._
 
-- **URL**: No URL
+
+**Links**:
+- https://string-db.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/STRING
+- https://string-db.org
+
 
 #### License information
 
@@ -53,6 +64,7 @@ _STRING is a database of known and predicted protein-protein interactions. The i
 #### Review information for this resource
 
 
+<details></summary>Review information</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -61,14 +73,18 @@ Review information was generated specifically for the Matrix project and may not
    - Rubric: `High` - Nominate: as gets A=3 / B=3/ C=3; pretty good source
 - **Domain Coverage**: `3` - Comprehensive gene/protein coverage with dense functional/physical associations and rich UniProt-based descriptors.
 - **Source Scope**: `3` - Global-scale, multi-species PPI/functional knowledgebase with millions of high-confidence edges from heterogeneous evidence.
-- **Drugrepurposing utility**: `3` - Directly usable as a backbone for repurposing pipelines; confidence-scored PPI edges integrate seamlessly once drug and disease mappings are added.
+- **Drug Repurposing Utility**: `3` - Directly usable as a backbone for repurposing pipelines; confidence-scored PPI edges integrate seamlessly once drug and disease mappings are added.
+<details>
 
 
 ### Source: PathWhiz (pathwhiz)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/PathWhiz
+
 
 #### License information
 
@@ -80,13 +96,19 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: DrugBank (drugbank)
 
 _A comprehensive, free-to-access, online database containing information on drugs and drug targets. As both a bioinformatics and a cheminformatics resource, we combine detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information_
 
-- **URL**: No URL
+
+**Links**:
+- https://go.drugbank.com
+- https://github.com/NCATSTranslator/Translator-All/wiki/DrugBank
+- https://www.drugbank.com/
+
 
 #### License information
 
@@ -100,13 +122,18 @@ _A comprehensive, free-to-access, online database containing information on drug
 
 
 No review information available.
+</details>
 
 
 ### Source: Ubergraph (ubergraph)
 
 _A graph representation of Ubergraph, an integration of ontologies including GO, CHEBI, Uberon, and HPO._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/Ubergraph
+- https://ubergraph.apps.renci.org/sparql
+
 
 #### License information
 
@@ -118,13 +145,17 @@ _A graph representation of Ubergraph, an integration of ontologies including GO,
 
 
 No review information available.
+</details>
 
 
 ### Source: Ensembl gene (ensembl-gene)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.ebi.ac.uk/training/online/courses/ensembl-browsing-genomes/exploring-sources-of-biological-data/ensembl-genes/
+
 
 #### License information
 
@@ -136,13 +167,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: BindingDB (bindingdb)
 
 _BindingDB is a public, web-accessible database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules. As of July 31, 2021, BindingDB contains 41,300 Entries, each with a DOI, containing 2,303,972 binding data for 8,561 protein targets and 995,797 small molecules._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/bindingdb
+- https://www.bindingdb.org/rwd/bind/index.jsp
+
 
 #### License information
 
@@ -154,13 +190,17 @@ _BindingDB is a public, web-accessible database of measured binding affinities, 
 
 
 No review information available.
+</details>
 
 
 ### Source: DISEASES (diseases)
 
 _DISEASES is a weekly updated web resource that integrates evidence on disease-gene associations  from automatic text mining, manually curated literature, cancer mutation data, and  genome-wide association studies. We further unify the evidence by assigning confidence  scores that facilitate comparison of the different types and sources of evidence._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/Diseases
+
 
 #### License information
 
@@ -171,6 +211,7 @@ _DISEASES is a weekly updated web resource that integrates evidence on disease-g
 #### Review information for this resource
 
 
+<details></summary>Review information</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -179,14 +220,18 @@ Review information was generated specifically for the Matrix project and may not
    - Rubric: `Medium` - Conditional: useful for repurposing only when linked with other drug→target resources
 - **Domain Coverage**: `2` - Entities: target,gene + disease; Relation: T–D (~millions); mapped to DOID, STRING/HGNC/Ensembl; confidence scoring robust. No drugs or D–D/AEs.
 - **Source Scope**: `3` - Broad, cross-disease; millions of T–D edges; >19k genes, >8k diseases; integrates curated, GWAS, text mining; updated weekly.
-- **Drugrepurposing utility**: `2` - Direct edges: T–D; millions of associations; 1–5 star confidence; AUC=0.916 for text mining. No direct drug links, no mechanism or AE context → requires integration with drug–target DBs.
+- **Drug Repurposing Utility**: `2` - Direct edges: T–D; millions of associations; 1–5 star confidence; AUC=0.916 for text mining. No direct drug links, no mechanism or AE context → requires integration with drug–target DBs.
+<details>
 
 
 ### Source: NCBI Taxonomy (ncbi-taxonomy)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.ncbi.nlm.nih.gov/taxonomy
+
 
 #### License information
 
@@ -198,13 +243,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Human Metabolome Database  (hmdb)
 
 _A freely available electronic database containing detailed information about small molecule metabolites found in the human body_
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/HMDB
+- http://www.hmdb.ca
+
 
 #### License information
 
@@ -218,13 +268,17 @@ _A freely available electronic database containing detailed information about sm
 
 
 No review information available.
+</details>
 
 
 ### Source: Text Mining Targeted Association API (text-mining-provider-targeted)
 
 _API serving explicitly targeted Biolink Associations extracted from sentences in the scientific literature. Here, targeted refers to the fact that this service is based on text-mining models targeted to extract specific associations between concepts, as opposed to concepts cooccurring with each other._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/Text%E2%80%90mined-Assertion-KP
+
 
 #### License information
 
@@ -236,13 +290,17 @@ _API serving explicitly targeted Biolink Associations extracted from sentences i
 
 
 No review information available.
+</details>
 
 
 ### Source: IntAct (intact)
 
 _Stub Resource page for intact. This page was automatically generated because it was referenced by other resources._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/IntAct
+
 
 #### License information
 
@@ -254,13 +312,18 @@ _Stub Resource page for intact. This page was automatically generated because it
 
 
 No review information available.
+</details>
 
 
 ### Source: National Cancer Institute Thesaurus (ncit)
 
 _Stub Resource page for ncit. This page was automatically generated because it was referenced by other resources._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/NCIT
+- https://ncithesaurus-stage.nci.nih.gov
+
 
 #### License information
 
@@ -274,13 +337,19 @@ _Stub Resource page for ncit. This page was automatically generated because it w
 
 
 No review information available.
+</details>
 
 
 ### Source: Bgee (bgee)
 
 _Bgee is a database for retrieval and comparison of gene expression patterns across multiple animal species, providing information about gene expression in different anatomical structures, developmental stages, and species._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/Bgee
+- https://www.bgee.org/
+- https://www.bgee.org
+
 
 #### License information
 
@@ -294,13 +363,18 @@ _Bgee is a database for retrieval and comparison of gene expression patterns acr
 
 
 No review information available.
+</details>
 
 
 ### Source: Hetionet (hetionet)
 
 _Hetionet is an integrative network of biomedical knowledge assembled from 29 different databases of genes, compounds, diseases, and more. It combines over 50 years of biomedical information into a single resource._
 
-- **URL**: No URL
+
+**Links**:
+- https://het.io/
+- https://github.com/NCATSTranslator/Translator-All/wiki/Hetionet
+
 
 #### License information
 
@@ -312,13 +386,17 @@ _Hetionet is an integrative network of biomedical knowledge assembled from 29 di
 
 
 No review information available.
+</details>
 
 
 ### Source: Medical Subject Headings Thesaurus (mesh)
 
 _Stub Resource page for mesh. This page was automatically generated because it was referenced by other resources._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/MeSH
+
 
 #### License information
 
@@ -330,13 +408,19 @@ _Stub Resource page for mesh. This page was automatically generated because it w
 
 
 No review information available.
+</details>
 
 
 ### Source: Panther Classification System (panther)
 
 _PANTHER is a Protein ANalysis THrough Evolutionary Relationships Classification System. The mission of the PANTHER knowledgebase is to support biomedical and other research by providing comprehensive information about the evolution of protein-coding gene families, particularly protein phylogeny, function and genetic variation impacting that function._
 
-- **URL**: No URL
+
+**Links**:
+- http://pantherdb.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/PANTHER
+- https://www.pantherdb.org/
+
 
 #### License information
 
@@ -350,13 +434,18 @@ _PANTHER is a Protein ANalysis THrough Evolutionary Relationships Classification
 
 
 No review information available.
+</details>
 
 
 ### Source: Library of Integrated Network-Based Cellular Signatures (lincs)
 
 _The Library of Integrated Network-based Cellular Signatures (LINCS) is a comprehensive collection of data that catalogs how human cells globally respond to chemical, genetic, and disease perturbations. It aims to better understand human disease and advance the development of new therapies by assembling an integrated picture of the range of responses of human cells exposed to many perturbations._
 
-- **URL**: No URL
+
+**Links**:
+- https://lincsportal.ccs.miami.edu/signatures/home
+- https://github.com/NCATSTranslator/Translator-All/wiki/LINCS
+
 
 #### License information
 
@@ -367,6 +456,7 @@ _The Library of Integrated Network-based Cellular Signatures (LINCS) is a compre
 #### Review information for this resource
 
 
+<details></summary>Review information</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -375,14 +465,20 @@ Review information was generated specifically for the Matrix project and may not
    - Rubric: `Medium` - Conditional: it’s a backbone-scale perturbation resource that’s excellent for signature-based repurposing and MOA illumination, but it must be joined to curated drug–target and disease sources to drive actionable D→D decisions.
 - **Domain Coverage**: `2` - Entities: drugs + genes (genetic perturbations), disease mainly as context; relations are perturbation→signature (L1000, P100/GCP, imaging). Rich metadata/FAIR, but no native D–T/T–D/D–D edges
 - **Source Scope**: `3` - Broad, cross-disease & multi-modality (L1000, proteomics, imaging, epigenetics); tens of thousands of perturbagens; hundreds of thousands of signatures; large multi-center program; FAIR & standardized.”
-- **Drugrepurposing utility**: `2` - Strong for signature-based D→D (reversal/mimic) via CLUE/L1000CDS2; toxicity signatures (DToxS) aid filtering. Lacks curated D–T/T–D/D–D edges; needs join to DrugBank/ChEMBL/BindingDB and disease resources.
+- **Drug Repurposing Utility**: `2` - Strong for signature-based D→D (reversal/mimic) via CLUE/L1000CDS2; toxicity signatures (DToxS) aid filtering. Lacks curated D–T/T–D/D–D edges; needs join to DrugBank/ChEMBL/BindingDB and disease resources.
+<details>
 
 
 ### Source: Reactome (reactome)
 
 _Reactome from Biopax_
 
-- **URL**: No URL
+
+**Links**:
+- https://reactome.org
+- http://www.reactome.org
+- https://github.com/NCATSTranslator/Translator-All/wiki/reactome
+
 
 #### License information
 
@@ -396,13 +492,17 @@ _Reactome from Biopax_
 
 
 No review information available.
+</details>
 
 
 ### Source: UMLS Metathesaurus (MTH) (from UMLS) (umls-metathesaurus)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MTH/index.html
+
 
 #### License information
 
@@ -413,6 +513,7 @@ _No description._
 #### Review information for this resource
 
 
+<details></summary>Review information</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -421,14 +522,18 @@ Review information was generated specifically for the Matrix project and may not
    - Rubric: `Medium` - Conditional: due to a Utility score of 2
 - **Domain Coverage**: `3` - Covers diseases, drugs/chemicals, genes/genomes, anatomy, phenotypes, procedures, functions; concepts standardized to CUIs with 134 semantic types and 54 relation families.
 - **Source Scope**: `3` - Unifies ~60 vocabularies (~900k concepts) spanning clinical medicine and life sciences, from MeSH and SNOMED to NCBI Taxonomy and early GO integration.
-- **Drugrepurposing utility**: `2` - Provides schema-level relations (e.g., ‘Pharmacologic Substance TREATS Disease or Syndrome’, ‘interacts with’) but not instance-level curated edges, so mainly useful for normalization and relation templates.
+- **Drug Repurposing Utility**: `2` - Provides schema-level relations (e.g., ‘Pharmacologic Substance TREATS Disease or Syndrome’, ‘interacts with’) but not instance-level curated edges, so mainly useful for normalization and relation templates.
+<details>
 
 
 ### Source: Protein Ontology (pr)
 
 _Stub Resource page for pr. This page was automatically generated because it was referenced by other resources._
 
-- **URL**: No URL
+
+**Links**:
+- https://proconsortium.org/
+
 
 #### License information
 
@@ -440,13 +545,18 @@ _Stub Resource page for pr. This page was automatically generated because it was
 
 
 No review information available.
+</details>
 
 
 ### Source: DisGeNET (disgenet)
 
 _DisGeNET is the world's largest and most extensive gene-disease association (GDA) network, integrating data from expert-curated repositories, GWAS catalogs, animal models, and scientific literature. It contains gene-disease associations, variant-disease associations, and disease-disease associations with extensive evidence supporting each connection._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/DisGeNET
+- https://www.disgenet.com/
+
 
 #### License information
 
@@ -458,13 +568,19 @@ _DisGeNET is the world's largest and most extensive gene-disease association (GD
 
 
 No review information available.
+</details>
 
 
 ### Source: Online Mendelian Inheritance in Man (OMIM) (omim)
 
 _OMIM (Online Mendelian Inheritance in Man) is a continuously updated, expert-curated catalog of human genes and genetic disorders, focusing on genotype–phenotype relationships and the molecular basis of disease._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.omim.org
+- https://github.com/NCATSTranslator/Translator-All/wiki/OMIM
+- https://www.omim.org/
+
 
 #### License information
 
@@ -478,13 +594,18 @@ _OMIM (Online Mendelian Inheritance in Man) is a continuously updated, expert-cu
 
 
 No review information available.
+</details>
 
 
 ### Source: Pharos (pharos)
 
 _focusing on three of the most commonly drug-targeted protein families: G-protein-coupled receptors (GPCRs, Ion channels (ICs), Kinases_
 
-- **URL**: No URL
+
+**Links**:
+- https://pharos.nih.gov/
+- https://github.com/NCATSTranslator/Translator-All/wiki/Pharos
+
 
 #### License information
 
@@ -498,13 +619,18 @@ _focusing on three of the most commonly drug-targeted protein families: G-protei
 
 
 No review information available.
+</details>
 
 
 ### Source: Chemical Entity of Biological Interest (chebi)
 
 _a freely available dictionary of molecular entities focused on ‘small’ chemical compounds_
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/ChEBI
+- https://www.ebi.ac.uk/chebi/
+
 
 #### License information
 
@@ -515,6 +641,7 @@ _a freely available dictionary of molecular entities focused on ‘small’ chem
 #### Review information for this resource
 
 
+<details></summary>Review information</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -523,14 +650,18 @@ Review information was generated specifically for the Matrix project and may not
    - Rubric: `Medium` - Conditional: a backbone ontology for chemical harmonization and roles, but requires integration with drug–target and disease resources to support repurposing models.
 - **Domain Coverage**: `2` - Rich ontology of small molecules with roles and structure descriptors; cross-referenced broadly; but lacks explicit gene/disease edges.
 - **Source Scope**: `3` - General-purpose backbone ontology of small molecules, roles, and classes; >400k entities; multi-resource integration; cross-disease, multi-use.
-- **Drugrepurposing utility**: `1` - Great for harmonization (IDs, synonyms, chemical roles), but lacks curated D–T, T–D, or D–D edges; not plug-and-play for repurposing.
+- **Drug Repurposing Utility**: `1` - Great for harmonization (IDs, synonyms, chemical roles), but lacks curated D–T, T–D, or D–D edges; not plug-and-play for repurposing.
+<details>
 
 
 ### Source: Human Phenotype Ontology (hpo-annotations)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/HPO-Annotations
+
 
 #### License information
 
@@ -542,13 +673,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Gene Ontology Annotations (goa)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.geneontology.org/
+
 
 #### License information
 
@@ -560,13 +695,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: FDA Adverse Event Reporting System (faers)
 
 _The FDA Adverse Event Reporting System (FAERS) is a database that contains information on adverse event and medication error reports submitted to FDA._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/FAERS
+
 
 #### License information
 
@@ -578,13 +717,17 @@ _The FDA Adverse Event Reporting System (FAERS) is a database that contains info
 
 
 No review information available.
+</details>
 
 
 ### Source: Foundational Model of Anatomy Ontology (FMA -- both from UMLS and from OBO) (fma-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/FMA/index.html
+
 
 #### License information
 
@@ -596,13 +739,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: National Center for Biotechnology Information Gene (ncbi-gene)
 
 _Gene integrates information from a wide range of species. A record may include nomenclature, Reference Sequences (RefSeqs), maps, pathways, variations, phenotypes, and links to genome-, phenotype-, and locus-specific resources worldwide._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.ncbi.nlm.nih.gov/gene/
+- https://github.com/NCATSTranslator/Translator-All/wiki/ncbi-gene
+
 
 #### License information
 
@@ -616,13 +764,18 @@ _Gene integrates information from a wide range of species. A record may include 
 
 
 No review information available.
+</details>
 
 
 ### Source: Gene Ontology (go)
 
 _The Gene Ontology resource, the world’s largest source of information on the functions of genes. This knowledge is both human-readable and machine-readable, and is a foundation for computational analysis of large-scale molecular biology and genetics experiments in biomedical research._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/go
+- https://geneontology.org/
+
 
 #### License information
 
@@ -634,13 +787,17 @@ _The Gene Ontology resource, the world’s largest source of information on the 
 
 
 No review information available.
+</details>
 
 
 ### Source: ICD10PCS (from UMLS) (icd10pcs-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/ICD10PCS/index.html
+
 
 #### License information
 
@@ -652,13 +809,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Tissue Expression Database (tissues-expression-db)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/Tissue-Expression-Database
+
 
 #### License information
 
@@ -670,13 +831,19 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Comparative Toxicogenomics Database (ctd)
 
 _A robust, publicly available database that aims to advance understanding about how environmental exposures affect human health._
 
-- **URL**: No URL
+
+**Links**:
+- http://ctdbase.org
+- https://ctdbase.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/CTD
+
 
 #### License information
 
@@ -690,13 +857,18 @@ _A robust, publicly available database that aims to advance understanding about 
 
 
 No review information available.
+</details>
 
 
 ### Source: SIDER (sider)
 
 _SIDER (Side Effect Resource) contains information on marketed medicines and their recorded adverse drug reactions. The information is extracted from public documents and package inserts, including side effect frequency, drug and side effect classifications, and links to further information._
 
-- **URL**: No URL
+
+**Links**:
+- http://sideeffects.embl.de/
+- https://github.com/NCATSTranslator/Translator-All/wiki/SIDER
+
 
 #### License information
 
@@ -708,13 +880,18 @@ _SIDER (Side Effect Resource) contains information on marketed medicines and the
 
 
 No review information available.
+</details>
 
 
 ### Source: Orphanet (orphanet)
 
 _Orphanet is a unique resource for information and data on rare diseases and orphan drugs, aimed at improving diagnosis, care, and treatment of patients with rare diseases. It maintains the Orphanet rare disease nomenclature (ORPHAcodes), which is essential for improving the visibility of rare diseases in health and research information systems._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.orpha.net
+- https://www.orpha.net/
+
 
 #### License information
 
@@ -726,13 +903,18 @@ _Orphanet is a unique resource for information and data on rare diseases and orp
 
 
 No review information available.
+</details>
 
 
 ### Source: Mouse Genome Informatics (mgi)
 
 _MGI is the international database resource for the laboratory mouse, providing integrated genetic, genomic, and biological data to facilitate the study of human health and disease._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/mgi
+- http://www.informatics.jax.org/
+
 
 #### License information
 
@@ -745,6 +927,7 @@ _MGI is the international database resource for the laboratory mouse, providing 
 #### Review information for this resource
 
 
+<details></summary>Review information</summary>
 Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
 - **Reviewer**: https://orcid.org/0000-0003-4097-3395
@@ -753,14 +936,18 @@ Review information was generated specifically for the Matrix project and may not
    - Rubric: `Medium` - Conditional — Use MGI’s T–D as high-quality disease biology and gene-prior layer; combine with D–T from DrugBank/ChEMBL/BindingDB to run D→T→D paths. (Consider filtering to curated HMDC disease links.)
 - **Domain Coverage**: `2` - Entities: gene, disease, phenotype; Relations: gene–phenotype (MP), mouse model→human disease (DO/OMIM), gene→GO, gene→expression (GXD); IDs: MGI/DO/MP/NCBI/PMID.
 - **Source Scope**: `3` - Backbone mouse resource; cross-disease; many phenotypes/models; multiple relation subtypes (phenotype, expression, GO, disease models); regular releases / bulk access.
-- **Drugrepurposing utility**: `2` - Direct edges: T–D (mouse model→human disease) with PMIDs; IDs clean (DO/OMIM/NCBI/MGI). No D–T/D–D/AE—needs drug databases for D→T→D.
+- **Drug Repurposing Utility**: `2` - Direct edges: T–D (mouse model→human disease) with PMIDs; IDs clean (DO/OMIM/NCBI/MGI). No D–T/D–D/AE—needs drug databases for D→T→D.
+<details>
 
 
 ### Source: RxNorm (rxnorm)
 
 _normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, and Gold Standard Drug Database_
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/RxNORM
+
 
 #### License information
 
@@ -772,13 +959,17 @@ _normalized names for clinical drugs and links its names to many of the drug voc
 
 
 No review information available.
+</details>
 
 
 ### Source: Medication Reference Terminology (MED-RT) (from UMLS) (medrt-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MED-RT/index.html
+
 
 #### License information
 
@@ -790,13 +981,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Gene Ontology Plus (go-plus)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/GO-Plus
+
 
 #### License information
 
@@ -808,13 +1003,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Foundational Model of Anatomy Ontology (FMA -- both from UMLS and from OBO) (fma-obo)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/FMA/index.html
+
 
 #### License information
 
@@ -826,13 +1025,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: ChEMBL (chembl)
 
 _a manually knowledge_assertion database of bioactive molecules with drug-like properties._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.ebi.ac.uk/chembl/
+- https://github.com/NCATSTranslator/Translator-All/wiki/ChEMBL
+
 
 #### License information
 
@@ -846,13 +1050,17 @@ _a manually knowledge_assertion database of bioactive molecules with drug-like p
 
 
 No review information available.
+</details>
 
 
 ### Source: Veterans Association National Drug File (VANDF) (from UMLS) (vandf-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/VANDF
+
 
 #### License information
 
@@ -864,13 +1072,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Orphanet Rare Disease Ontology (ordo)
 
 _The Orphanet Rare Disease Ontology (ORDO) is an open-access ontology developed from the Orphanet information system, enabling complex queries of rare diseases and their epidemiological data (age of onset, prevalence, mode of inheritance) and gene-disorder functional relationships._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.orphadata.com/ordo/
+- https://github.com/NCATSTranslator/Translator-All/wiki/Orphanet-Rare-Disease-Ontology
+
 
 #### License information
 
@@ -882,13 +1095,18 @@ _The Orphanet Rare Disease Ontology (ORDO) is an open-access ontology developed 
 
 
 No review information available.
+</details>
 
 
 ### Source: UniProt Knowledgebase (uniprot)
 
 _UniProt Protein Knowledge Base_
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/UniProt
+- https://www.uniprot.org/
+
 
 #### License information
 
@@ -900,13 +1118,18 @@ _UniProt Protein Knowledge Base_
 
 
 No review information available.
+</details>
 
 
 ### Source: Experimental Factor Ontology (efo)
 
 _The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for projects such as the GWAS catalog. It combines parts of several biological ontologies, such as UBERON anatomy, ChEBI chemical compounds, and Cell Ontology._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.ebi.ac.uk/efo/
+- https://github.com/NCATSTranslator/Translator-All/wiki/EFO
+
 
 #### License information
 
@@ -918,13 +1141,18 @@ _The Experimental Factor Ontology (EFO) provides a systematic description of man
 
 
 No review information available.
+</details>
 
 
 ### Source: Drug Gene Interaction Database (dgidb)
 
 _information on drug-gene interactions and druggable genes from publications, databases, and other web-based sources. Drug, gene, and interaction data are normalized and merged into conceptual groups._
 
-- **URL**: No URL
+
+**Links**:
+- https://dgidb.org
+- https://github.com/NCATSTranslator/Translator-All/wiki/dgidb
+
 
 #### License information
 
@@ -936,13 +1164,17 @@ _information on drug-gene interactions and druggable genes from publications, da
 
 
 No review information available.
+</details>
 
 
 ### Source: SIGNOR 3.0 (signor)
 
 _SIGNOR (SIGnaling Network Open Resource) is a manually curated repository of experimentally supported, causal relationships between human proteins and other biologically relevant entities (chemicals, phenotypes, complexes, families, stimuli). Each interaction is annotated with effect, mechanism, directionality, evidence (PMID), and a relevance score, enabling construction and analysis of signed, directed signaling networks and pathways. Cite SIGNOR (Lo Surdo et al., 2022 NAR) when using data; interaction data are directional and signed—verify effect/mechanism fields when integrating._
 
-- **URL**: No URL
+
+**Links**:
+- https://signor.uniroma2.it/
+
 
 #### License information
 
@@ -954,13 +1186,17 @@ _SIGNOR (SIGnaling Network Open Resource) is a manually curated repository of ex
 
 
 No review information available.
+</details>
 
 
 ### Source: Food Ontology (foodon)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.obofoundry.org/ontology/foodon.html
+
 
 #### License information
 
@@ -972,13 +1208,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Cell Ontology (cl)
 
 _The Cell Ontology (CL) is a structured controlled vocabulary for cell types in animals. It serves as a comprehensive resource for model organism and bioinformatics databases, with over 2,700 cell type classes and rich integration with other biomedical ontologies._
 
-- **URL**: No URL
+
+**Links**:
+- https://cell-ontology.github.io/
+- https://github.com/NCATSTranslator/Translator-All/wiki/CL
+
 
 #### License information
 
@@ -990,13 +1231,18 @@ _The Cell Ontology (CL) is a structured controlled vocabulary for cell types in 
 
 
 No review information available.
+</details>
 
 
 ### Source: HUGO Gene Nomenclature Committee (hgnc)
 
 _HGNC is the HUGO Gene Nomenclature Committee. It is a resource for approved human gene names._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.genenames.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/HGNC
+
 
 #### License information
 
@@ -1008,13 +1254,17 @@ _HGNC is the HUGO Gene Nomenclature Committee. It is a resource for approved hum
 
 
 No review information available.
+</details>
 
 
 ### Source: ICD9CM (from UMLS) (icd9cm-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/ICD9CM/index.html
+
 
 #### License information
 
@@ -1026,13 +1276,19 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: DrugCentral (drugcentral)
 
 _Online drug information resource created and maintained by Division of Translational Informatics at University of New Mexico in collaboration with the IDG._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/DrugCentral
+- http://drugcentral.org
+- https://drugcentral.org/
+
 
 #### License information
 
@@ -1046,13 +1302,14 @@ _Online drug information resource created and maintained by Division of Translat
 
 
 No review information available.
+</details>
 
 
 ### Source: National Drug Data File (NDDF) (from UMLS) (nddf-umls)
 
 _No description._
 
-- **URL**: No URL
+
 
 #### License information
 
@@ -1064,13 +1321,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: No name (chv-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/Automat
+
 
 #### License information
 
@@ -1082,13 +1343,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: NCBI Taxonomy Ontology (ncbi-taxon)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.obofoundry.org/ontology/ncbitaxon.html
+
 
 #### License information
 
@@ -1100,13 +1365,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Psychological Index Terms (PSY) (from UMLS) (psy-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/PSY/index.html#:~:text=PSY%20(Psychological%20Index%20Terms)%20%2D%20Synopsis,-Synopsis%20Metadata%20Statistics&text=The%20Thesaurus%20of%20Psychological%20Index%20Terms%20is%20a%20controlled%20vocabulary,provide%20subject%20searching%20of%20data.
+
 
 #### License information
 
@@ -1118,13 +1387,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Human Phenotype Ontology (hpo)
 
 _A curated database of human hereditary syndromes from OMIM, Orphanet, and DECIPHER mapped to classes of the human phenotype ontology. Various meta-attributes such as frequency, references and negations are associated with each annotation. These are presently limited to rare mendelian diseases._
 
-- **URL**: No URL
+
+**Links**:
+- http://human-phenotype-ontology.github.io
+- https://github.com/NCATSTranslator/Translator-All/wiki/HPO
+
 
 #### License information
 
@@ -1138,13 +1412,17 @@ _A curated database of human hereditary syndromes from OMIM, Orphanet, and DECIP
 
 
 No review information available.
+</details>
 
 
 ### Source: Target Illumination GWAS Analytics (tiga)
 
 _Aggregating and assessing experimental evidence for interpretable, explainable, accountable gene-trait associations._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/TIGA
+
 
 #### License information
 
@@ -1156,13 +1434,18 @@ _Aggregating and assessing experimental evidence for interpretable, explainable,
 
 
 No review information available.
+</details>
 
 
 ### Source: MONDO Disease Ontology (mondo)
 
 _The Mondo Disease Ontology (Mondo) aims to harmonize disease definitions across the world. The name Mondo comes from the Latin word ‘mundus’ and means ‘for the world.’_
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/mondo
+- https://mondo.monarchinitiative.org/
+
 
 #### License information
 
@@ -1174,13 +1457,17 @@ _The Mondo Disease Ontology (Mondo) aims to harmonize disease definitions across
 
 
 No review information available.
+</details>
 
 
 ### Source: Kyoto Encyclopedia of Genes and Genomes (KEGG) (kegg)
 
 _The Kyoto Encyclopedia of Genes and Genomes (KEGG) is a database resource for understanding high-level functions and utilities of the biological system, such as the cell, the organism and the ecosystem, from molecular-level information, especially large-scale molecular datasets generated by genome sequencing and other high-throughput experimental technologies._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.genome.jp/kegg/
+
 
 #### License information
 
@@ -1192,13 +1479,18 @@ _The Kyoto Encyclopedia of Genes and Genomes (KEGG) is a database resource for u
 
 
 No review information available.
+</details>
 
 
 ### Source: Zebrafish Information Network (zfin)
 
 _Zebrafish Information Network, including the Zebrafish Anatomical Ontology_
 
-- **URL**: No URL
+
+**Links**:
+- http://zfin.org
+- https://zfin.org/
+
 
 #### License information
 
@@ -1212,13 +1504,18 @@ _Zebrafish Information Network, including the Zebrafish Anatomical Ontology_
 
 
 No review information available.
+</details>
 
 
 ### Source: Uber Anatomy Ontology (uberon)
 
 _An integrated cross-species anatomy ontology representing a variety of anatomical structures across taxonomic groups, with a focus on vertebrates and model organisms._
 
-- **URL**: No URL
+
+**Links**:
+- https://obophenotype.github.io/uberon/
+- https://github.com/NCATSTranslator/Translator-All/wiki/Uberon
+
 
 #### License information
 
@@ -1230,13 +1527,17 @@ _An integrated cross-species anatomy ontology representing a variety of anatomic
 
 
 No review information available.
+</details>
 
 
 ### Source: Disease Ontology (disease-ontology)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/disease-ontology
+
 
 #### License information
 
@@ -1248,13 +1549,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: FlyBase (flybase)
 
 _A Database of Drosophila Genes & Genomes_
 
-- **URL**: No URL
+
+**Links**:
+- http://flybase.org
+- https://flybase.org
+
 
 #### License information
 
@@ -1268,13 +1574,17 @@ _A Database of Drosophila Genes & Genomes_
 
 
 No review information available.
+</details>
 
 
 ### Source: Physician Data Query (PDQ) (from UMLS) (pdq-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/PDQ/index.html
+
 
 #### License information
 
@@ -1286,13 +1596,19 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Saccharomyces Genome Database (sgd)
 
 _The Saccharomyces Genome Database (SGD) project collects information and maintains a database of the molecular biology of the yeast Saccharomyces cerevisiae._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.yeastgenome.org/
+- https://yeastgenome.org/
+- http://www.yeastgenome.org/
+
 
 #### License information
 
@@ -1306,13 +1622,17 @@ _The Saccharomyces Genome Database (SGD) project collects information and mainta
 
 
 No review information available.
+</details>
 
 
 ### Source: Human Developmental Anatomy Ontology (ehdaa2)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- http://obofoundry.org/ontology/ehdaa2.html
+
 
 #### License information
 
@@ -1324,13 +1644,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: DrugMechDB (drugmechdb)
 
 _A database of paths that represent the mechanism of action from a drug to a disease in an indication._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/SuLab/DrugMechDB
+- https://sulab.github.io/DrugMechDB/
+
 
 #### License information
 
@@ -1342,13 +1667,18 @@ _A database of paths that represent the mechanism of action from a drug to a dis
 
 
 No review information available.
+</details>
 
 
 ### Source: Guide to Pharmacology (gtopdb)
 
 _An expert-knowledge_assertion resource of ligand-activity-target relationships, the majority of which come from high-quality pharmacological and medicinal chemistry literature_
 
-- **URL**: No URL
+
+**Links**:
+- https://www.guidetopharmacology.org
+- https://github.com/NCATSTranslator/Translator-All/wiki/GtoPdb
+
 
 #### License information
 
@@ -1360,13 +1690,17 @@ _An expert-knowledge_assertion resource of ligand-activity-target relationships,
 
 
 No review information available.
+</details>
 
 
 ### Source: MedlinePlus (from UMLS) (medlineplus)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://medlineplus.gov/
+
 
 #### License information
 
@@ -1378,13 +1712,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Health Level Seven (HL7) (from UMLS) (hl7-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/HL7V3.0/index.html
+
 
 #### License information
 
@@ -1396,13 +1734,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Drug Repositioning Database (repodb)
 
 _RepoDB is a standard dataset of drug repositioning successes and failures  that can be used to fairly and reproducibly benchmark computational  repositioning methods. The database contains approved drugs, their  indications, and clinical trial outcomes._
 
-- **URL**: No URL
+
+**Links**:
+- https://unmtid-shinyapps.net/shiny/repodb/
+- https://github.com/NCATSTranslator/Translator-All/wiki/repoDB
+
 
 #### License information
 
@@ -1414,13 +1757,17 @@ _RepoDB is a standard dataset of drug repositioning successes and failures  that
 
 
 No review information available.
+</details>
 
 
 ### Source: Healthcare Common Procedure Coding System (from UMLS) (hcp-codes-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/HCPCS-Version-of-Current-Procedural-Terminology
+
 
 #### License information
 
@@ -1432,13 +1779,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Anatomical Therapeutic Chemical (ATC) Codes (from UMLS) (atc-codes-umls)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/ATC/index.html
+
 
 #### License information
 
@@ -1450,13 +1801,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: eRAM: encyclopedia of rare disease annotations for precision medicine (eram)
 
 _encyclopedia of rare disease annotations for precision medicine_
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/eRAM
+
 
 #### License information
 
@@ -1468,13 +1823,18 @@ _encyclopedia of rare disease annotations for precision medicine_
 
 
 No review information available.
+</details>
 
 
 ### Source: RGD API (rgd)
 
 _The RGD API_
 
-- **URL**: No URL
+
+**Links**:
+- http://rgd.mcw.edu
+- https://rgd.mcw.edu/
+
 
 #### License information
 
@@ -1488,13 +1848,17 @@ _The RGD API_
 
 
 No review information available.
+</details>
 
 
 ### Source: Genomic Epidemiology Ontology (genepio)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://genepio.org/
+
 
 #### License information
 
@@ -1506,13 +1870,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: PhosphoSitePlus (psite-plus)
 
 _provides comprehensive information and tools for the study of protein  post-translational modifications (PTMs) including phosphorylation, acetylation, and more._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.phosphosite.org/homeAction.action
+
 
 #### License information
 
@@ -1524,13 +1892,17 @@ _provides comprehensive information and tools for the study of protein  post-tra
 
 
 No review information available.
+</details>
 
 
 ### Source: Monarch Initiative (monarchinitiative)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/Monarch-Initiative
+
 
 #### License information
 
@@ -1542,13 +1914,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: UniChem (unichem)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/UniChem
+
 
 #### License information
 
@@ -1560,13 +1936,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: The microRNA Database (mirbase)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://www.mirbase.org/
+
 
 #### License information
 
@@ -1578,13 +1958,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: EPSD (epsd)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://epsd.biocuckoo.cn
+
 
 #### License information
 
@@ -1596,13 +1980,18 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Phenotype and Trait Ontology (pato)
 
 _Phenotype And Trait Ontology (PATO) is an ontology of phenotypic qualities (properties, attributes or characteristics). It is used in conjunction with other ontologies to refer to phenotypes, and is widely used for logical definitions of phenotypes in cross-species integration._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/PATO
+- https://github.com/pato-ontology/pato/
+
 
 #### License information
 
@@ -1614,13 +2003,17 @@ _Phenotype And Trait Ontology (PATO) is an ontology of phenotypic qualities (pro
 
 
 No review information available.
+</details>
 
 
 ### Source: Molecular Interactions Controlled Vocabulary (mi)
 
 _Stub Resource page for mi. This page was automatically generated because it was referenced by other resources._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.obofoundry.org/ontology/mi.html
+
 
 #### License information
 
@@ -1632,13 +2025,17 @@ _Stub Resource page for mi. This page was automatically generated because it was
 
 
 No review information available.
+</details>
 
 
 ### Source: Neuro Behavior Ontology (nbo)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/NBO
+
 
 #### License information
 
@@ -1650,13 +2047,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Biolink ontology (biolink-ontology)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/BioLink-OWL
+
 
 #### License information
 
@@ -1668,13 +2069,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: iPTMnet (iptmnet)
 
 _iPTMnet is a bioinformatics resource for integrated understanding of protein post-translational modifications (PTMs) in systems biology context. It connects multiple disparate bioinformatics tools and systems text mining, data mining, analysis and visualization tools, and databases and ontologies into an integrated cross-cutting research resource to address the knowledge gaps in exploring and discovering PTM networks._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/iPTMnet
+
 
 #### License information
 
@@ -1686,13 +2091,17 @@ _iPTMnet is a bioinformatics resource for integrated understanding of protein po
 
 
 No review information available.
+</details>
 
 
 ### Source: Psychoactive Drug Screening Program (pdsp)
 
 _This service provides screening of novel psychoactive compounds for pharmacological and functional activity at cloned human or rodent CNS receptors, channels, and transporters._
 
-- **URL**: No URL
+
+**Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/PDSP
+
 
 #### License information
 
@@ -1704,13 +2113,17 @@ _This service provides screening of novel psychoactive compounds for pharmacolog
 
 
 No review information available.
+</details>
 
 
 ### Source: Relations Ontology (ro)
 
 _Stub Resource page for ro. This page was automatically generated because it was referenced by other resources._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.obofoundry.org/ontology/ro.html
+
 
 #### License information
 
@@ -1722,13 +2135,17 @@ _Stub Resource page for ro. This page was automatically generated because it was
 
 
 No review information available.
+</details>
 
 
 ### Source: Interaction Network Ontology (ino)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.obofoundry.org/ontology/ino.html
+
 
 #### License information
 
@@ -1740,13 +2157,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Biological Spatial Ontology (bspo)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- https://obofoundry.org/ontology/bspo.html
+
 
 #### License information
 
@@ -1758,13 +2179,17 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: Dictyostelium discoideum anatomy (dda)
 
 _No description._
 
-- **URL**: No URL
+
+**Links**:
+- http://www.obofoundry.org/ontology/ddanat.html
+
 
 #### License information
 
@@ -1776,13 +2201,14 @@ _No description._
 
 
 No review information available.
+</details>
 
 
 ### Source: No name (medical team)
 
 _No description._
 
-- **URL**: No URL
+
 
 #### License information
 
@@ -1794,4 +2220,5 @@ _No description._
 
 
 No review information available.
+</details>
 
