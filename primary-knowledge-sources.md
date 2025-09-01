@@ -17,8 +17,9 @@ _SemMedDB is a repository of semantic predications (subject-predicate-object tri
 
 
 **Links**:
-- https://lhncbc.nlm.nih.gov/temp/SemRep_SemMedDB_SKR/SemMedDB_download.html
 - https://github.com/NCATSTranslator/Translator-All/wiki/SemMedDB
+- https://lhncbc.nlm.nih.gov/temp/SemRep_SemMedDB_SKR/SemMedDB_download.html
+- https://w3id.org/information-resource-registry/semmeddb
 
 
 #### License information
@@ -49,9 +50,10 @@ _STRING is a database of known and predicted protein-protein interactions. The i
 
 
 **Links**:
+- https://github.com/NCATSTranslator/Translator-All/wiki/STRING
 - https://string-db.org
 - https://string-db.org/
-- https://github.com/NCATSTranslator/Translator-All/wiki/STRING
+- https://w3id.org/information-resource-registry/string
 
 
 #### License information
@@ -84,6 +86,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/PathWhiz
+- https://w3id.org/information-resource-registry/pathwhiz
 
 
 #### License information
@@ -105,9 +108,10 @@ _A comprehensive, free-to-access, online database containing information on drug
 
 
 **Links**:
-- https://go.drugbank.com
-- https://www.drugbank.com/
 - https://github.com/NCATSTranslator/Translator-All/wiki/DrugBank
+- https://go.drugbank.com
+- https://w3id.org/information-resource-registry/drugbank
+- https://www.drugbank.com/
 
 
 #### License information
@@ -131,8 +135,9 @@ _A graph representation of Ubergraph, an integration of ontologies including GO,
 
 
 **Links**:
-- https://ubergraph.apps.renci.org/sparql
 - https://github.com/NCATSTranslator/Translator-All/wiki/Ubergraph
+- https://ubergraph.apps.renci.org/sparql
+- https://w3id.org/information-resource-registry/ubergraph
 
 
 #### License information
@@ -154,6 +159,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/ensembl-gene
 - https://www.ebi.ac.uk/training/online/courses/ensembl-browsing-genomes/exploring-sources-of-biological-data/ensembl-genes/
 
 
@@ -177,6 +183,7 @@ _BindingDB is a public, web-accessible database of measured binding affinities, 
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/bindingdb
+- https://w3id.org/information-resource-registry/bindingdb
 - https://www.bindingdb.org/rwd/bind/index.jsp
 
 
@@ -200,6 +207,7 @@ _DISEASES is a weekly updated web resource that integrates evidence on disease-g
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Diseases
+- https://w3id.org/information-resource-registry/diseases
 
 
 #### License information
@@ -231,6 +239,7 @@ _No description._
 
 **Links**:
 - http://www.ncbi.nlm.nih.gov/taxonomy
+- https://w3id.org/information-resource-registry/ncbi-taxonomy
 
 
 #### License information
@@ -252,8 +261,9 @@ _A freely available electronic database containing detailed information about sm
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/HMDB
 - http://www.hmdb.ca
+- https://github.com/NCATSTranslator/Translator-All/wiki/HMDB
+- https://w3id.org/information-resource-registry/hmdb
 
 
 #### License information
@@ -278,6 +288,7 @@ _API serving explicitly targeted Biolink Associations extracted from sentences i
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Text%E2%80%90mined-Assertion-KP
+- https://w3id.org/information-resource-registry/text-mining-provider-targeted
 
 
 #### License information
@@ -300,6 +311,7 @@ _Stub Resource page for intact. This page was automatically generated because it
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/IntAct
+- https://w3id.org/information-resource-registry/intact
 
 
 #### License information
@@ -323,6 +335,7 @@ _Stub Resource page for ncit. This page was automatically generated because it w
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/NCIT
 - https://ncithesaurus-stage.nci.nih.gov
+- https://w3id.org/information-resource-registry/ncit
 
 
 #### License information
@@ -347,8 +360,9 @@ _Bgee is a database for retrieval and comparison of gene expression patterns acr
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Bgee
-- https://www.bgee.org/
+- https://w3id.org/information-resource-registry/bgee
 - https://www.bgee.org
+- https://www.bgee.org/
 
 
 #### License information
@@ -372,8 +386,9 @@ _Hetionet is an integrative network of biomedical knowledge assembled from 29 di
 
 
 **Links**:
-- https://het.io/
 - https://github.com/NCATSTranslator/Translator-All/wiki/Hetionet
+- https://het.io/
+- https://w3id.org/information-resource-registry/hetionet
 
 
 #### License information
@@ -396,6 +411,7 @@ _Stub Resource page for mesh. This page was automatically generated because it w
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/MeSH
+- https://w3id.org/information-resource-registry/mesh
 
 
 #### License information
@@ -419,6 +435,7 @@ _PANTHER is a Protein ANalysis THrough Evolutionary Relationships Classification
 **Links**:
 - http://pantherdb.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/PANTHER
+- https://w3id.org/information-resource-registry/panther
 - https://www.pantherdb.org/
 
 
@@ -445,6 +462,7 @@ _The Library of Integrated Network-based Cellular Signatures (LINCS) is a compre
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/LINCS
 - https://lincsportal.ccs.miami.edu/signatures/home
+- https://w3id.org/information-resource-registry/lincs
 
 
 #### License information
@@ -476,8 +494,9 @@ _Reactome from Biopax_
 
 **Links**:
 - http://www.reactome.org
-- https://reactome.org
 - https://github.com/NCATSTranslator/Translator-All/wiki/reactome
+- https://reactome.org
+- https://w3id.org/information-resource-registry/reactome
 
 
 #### License information
@@ -501,6 +520,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/umls-metathesaurus
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MTH/index.html
 
 
@@ -533,6 +553,7 @@ _Stub Resource page for pr. This page was automatically generated because it was
 
 **Links**:
 - https://proconsortium.org/
+- https://w3id.org/information-resource-registry/pr
 
 
 #### License information
@@ -555,6 +576,7 @@ _DisGeNET is the world's largest and most extensive gene-disease association (GD
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/DisGeNET
+- https://w3id.org/information-resource-registry/disgenet
 - https://www.disgenet.com/
 
 
@@ -578,6 +600,7 @@ _OMIM (Online Mendelian Inheritance in Man) is a continuously updated, expert-cu
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/OMIM
+- https://w3id.org/information-resource-registry/omim
 - https://www.omim.org
 - https://www.omim.org/
 
@@ -605,6 +628,7 @@ _focusing on three of the most commonly drug-targeted protein families: G-protei
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Pharos
 - https://pharos.nih.gov/
+- https://w3id.org/information-resource-registry/pharos
 
 
 #### License information
@@ -629,6 +653,7 @@ _a freely available dictionary of molecular entities focused on ‘small’ chem
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/ChEBI
+- https://w3id.org/information-resource-registry/chebi
 - https://www.ebi.ac.uk/chebi/
 
 
@@ -661,6 +686,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/HPO-Annotations
+- https://w3id.org/information-resource-registry/hpo-annotations
 
 
 #### License information
@@ -683,6 +709,7 @@ _No description._
 
 **Links**:
 - http://www.geneontology.org/
+- https://w3id.org/information-resource-registry/goa
 
 
 #### License information
@@ -705,6 +732,7 @@ _The FDA Adverse Event Reporting System (FAERS) is a database that contains info
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/FAERS
+- https://w3id.org/information-resource-registry/faers
 
 
 #### License information
@@ -726,6 +754,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/fma-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/FMA/index.html
 
 
@@ -748,8 +777,9 @@ _Gene integrates information from a wide range of species. A record may include 
 
 
 **Links**:
-- https://www.ncbi.nlm.nih.gov/gene/
 - https://github.com/NCATSTranslator/Translator-All/wiki/ncbi-gene
+- https://w3id.org/information-resource-registry/ncbi-gene
+- https://www.ncbi.nlm.nih.gov/gene/
 
 
 #### License information
@@ -773,8 +803,9 @@ _The Gene Ontology resource, the world’s largest source of information on the 
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/go
 - https://geneontology.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/go
+- https://w3id.org/information-resource-registry/go
 
 
 #### License information
@@ -796,6 +827,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/icd10pcs-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/ICD10PCS/index.html
 
 
@@ -819,6 +851,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Tissue-Expression-Database
+- https://w3id.org/information-resource-registry/tissues-expression-db
 
 
 #### License information
@@ -843,6 +876,7 @@ _A robust, publicly available database that aims to advance understanding about 
 - http://ctdbase.org
 - https://ctdbase.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/CTD
+- https://w3id.org/information-resource-registry/ctd
 
 
 #### License information
@@ -866,8 +900,9 @@ _SIDER (Side Effect Resource) contains information on marketed medicines and the
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/SIDER
 - http://sideeffects.embl.de/
+- https://github.com/NCATSTranslator/Translator-All/wiki/SIDER
+- https://w3id.org/information-resource-registry/sider
 
 
 #### License information
@@ -889,8 +924,9 @@ _Orphanet is a unique resource for information and data on rare diseases and orp
 
 
 **Links**:
-- https://www.orpha.net/
+- https://w3id.org/information-resource-registry/orphanet
 - https://www.orpha.net
+- https://www.orpha.net/
 
 
 #### License information
@@ -914,6 +950,7 @@ _MGI is the international database resource for the laboratory mouse, providing 
 **Links**:
 - http://www.informatics.jax.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/mgi
+- https://w3id.org/information-resource-registry/mgi
 
 
 #### License information
@@ -947,6 +984,7 @@ _normalized names for clinical drugs and links its names to many of the drug voc
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/RxNORM
+- https://w3id.org/information-resource-registry/rxnorm
 
 
 #### License information
@@ -968,6 +1006,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/medrt-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MED-RT/index.html
 
 
@@ -991,6 +1030,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/GO-Plus
+- https://w3id.org/information-resource-registry/go-plus
 
 
 #### License information
@@ -1012,6 +1052,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/fma-obo
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/FMA/index.html
 
 
@@ -1034,8 +1075,9 @@ _a manually knowledge_assertion database of bioactive molecules with drug-like p
 
 
 **Links**:
-- https://www.ebi.ac.uk/chembl/
 - https://github.com/NCATSTranslator/Translator-All/wiki/ChEMBL
+- https://w3id.org/information-resource-registry/chembl
+- https://www.ebi.ac.uk/chembl/
 
 
 #### License information
@@ -1060,6 +1102,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/VANDF
+- https://w3id.org/information-resource-registry/vandf-umls
 
 
 #### License information
@@ -1082,6 +1125,7 @@ _The Orphanet Rare Disease Ontology (ORDO) is an open-access ontology developed 
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Orphanet-Rare-Disease-Ontology
+- https://w3id.org/information-resource-registry/ordo
 - https://www.orphadata.com/ordo/
 
 
@@ -1104,8 +1148,9 @@ _UniProt Protein Knowledge Base_
 
 
 **Links**:
-- https://www.uniprot.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/UniProt
+- https://w3id.org/information-resource-registry/uniprot
+- https://www.uniprot.org/
 
 
 #### License information
@@ -1128,6 +1173,7 @@ _The Experimental Factor Ontology (EFO) provides a systematic description of man
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/EFO
+- https://w3id.org/information-resource-registry/efo
 - https://www.ebi.ac.uk/efo/
 
 
@@ -1152,6 +1198,7 @@ _information on drug-gene interactions and druggable genes from publications, da
 **Links**:
 - https://dgidb.org
 - https://github.com/NCATSTranslator/Translator-All/wiki/dgidb
+- https://w3id.org/information-resource-registry/dgidb
 
 
 #### License information
@@ -1174,6 +1221,7 @@ _SIGNOR (SIGnaling Network Open Resource) is a manually curated repository of ex
 
 **Links**:
 - https://signor.uniroma2.it/
+- https://w3id.org/information-resource-registry/signor
 
 
 #### License information
@@ -1196,6 +1244,7 @@ _No description._
 
 **Links**:
 - http://www.obofoundry.org/ontology/foodon.html
+- https://w3id.org/information-resource-registry/foodon
 
 
 #### License information
@@ -1217,8 +1266,9 @@ _The Cell Ontology (CL) is a structured controlled vocabulary for cell types in 
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/CL
 - https://cell-ontology.github.io/
+- https://github.com/NCATSTranslator/Translator-All/wiki/CL
+- https://w3id.org/information-resource-registry/cl
 
 
 #### License information
@@ -1241,6 +1291,7 @@ _HGNC is the HUGO Gene Nomenclature Committee. It is a resource for approved hum
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/HGNC
+- https://w3id.org/information-resource-registry/hgnc
 - https://www.genenames.org/
 
 
@@ -1263,6 +1314,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/icd9cm-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/ICD9CM/index.html
 
 
@@ -1286,8 +1338,9 @@ _Online drug information resource created and maintained by Division of Translat
 
 **Links**:
 - http://drugcentral.org
-- https://github.com/NCATSTranslator/Translator-All/wiki/DrugCentral
 - https://drugcentral.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/DrugCentral
+- https://w3id.org/information-resource-registry/drugcentral
 
 
 #### License information
@@ -1310,6 +1363,9 @@ No review information available.
 _No description._
 
 
+**Links**:
+- https://w3id.org/information-resource-registry/nddf-umls
+
 
 #### License information
 
@@ -1331,6 +1387,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Automat
+- https://w3id.org/information-resource-registry/chv-umls
 
 
 #### License information
@@ -1353,6 +1410,7 @@ _No description._
 
 **Links**:
 - http://www.obofoundry.org/ontology/ncbitaxon.html
+- https://w3id.org/information-resource-registry/ncbi-taxon
 
 
 #### License information
@@ -1374,6 +1432,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/psy-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/PSY/index.html#:~:text=PSY%20(Psychological%20Index%20Terms)%20%2D%20Synopsis,-Synopsis%20Metadata%20Statistics&text=The%20Thesaurus%20of%20Psychological%20Index%20Terms%20is%20a%20controlled%20vocabulary,provide%20subject%20searching%20of%20data.
 
 
@@ -1398,6 +1457,7 @@ _A curated database of human hereditary syndromes from OMIM, Orphanet, and DECIP
 **Links**:
 - http://human-phenotype-ontology.github.io
 - https://github.com/NCATSTranslator/Translator-All/wiki/HPO
+- https://w3id.org/information-resource-registry/hpo
 
 
 #### License information
@@ -1422,6 +1482,7 @@ _Aggregating and assessing experimental evidence for interpretable, explainable,
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/TIGA
+- https://w3id.org/information-resource-registry/tiga
 
 
 #### License information
@@ -1443,8 +1504,9 @@ _The Mondo Disease Ontology (Mondo) aims to harmonize disease definitions across
 
 
 **Links**:
-- https://mondo.monarchinitiative.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/mondo
+- https://mondo.monarchinitiative.org/
+- https://w3id.org/information-resource-registry/mondo
 
 
 #### License information
@@ -1466,6 +1528,7 @@ _The Kyoto Encyclopedia of Genes and Genomes (KEGG) is a database resource for u
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/kegg
 - https://www.genome.jp/kegg/
 
 
@@ -1488,8 +1551,9 @@ _Zebrafish Information Network, including the Zebrafish Anatomical Ontology_
 
 
 **Links**:
-- https://zfin.org/
 - http://zfin.org
+- https://w3id.org/information-resource-registry/zfin
+- https://zfin.org/
 
 
 #### License information
@@ -1513,8 +1577,9 @@ _An integrated cross-species anatomy ontology representing a variety of anatomic
 
 
 **Links**:
-- https://obophenotype.github.io/uberon/
 - https://github.com/NCATSTranslator/Translator-All/wiki/Uberon
+- https://obophenotype.github.io/uberon/
+- https://w3id.org/information-resource-registry/uberon
 
 
 #### License information
@@ -1537,6 +1602,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/disease-ontology
+- https://w3id.org/information-resource-registry/disease-ontology
 
 
 #### License information
@@ -1560,6 +1626,7 @@ _A Database of Drosophila Genes & Genomes_
 **Links**:
 - http://flybase.org
 - https://flybase.org
+- https://w3id.org/information-resource-registry/flybase
 
 
 #### License information
@@ -1583,6 +1650,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/pdq-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/PDQ/index.html
 
 
@@ -1605,9 +1673,10 @@ _The Saccharomyces Genome Database (SGD) project collects information and mainta
 
 
 **Links**:
+- http://www.yeastgenome.org/
+- https://w3id.org/information-resource-registry/sgd
 - https://www.yeastgenome.org/
 - https://yeastgenome.org/
-- http://www.yeastgenome.org/
 
 
 #### License information
@@ -1632,6 +1701,7 @@ _No description._
 
 **Links**:
 - http://obofoundry.org/ontology/ehdaa2.html
+- https://w3id.org/information-resource-registry/ehdaa2
 
 
 #### License information
@@ -1653,8 +1723,9 @@ _A database of paths that represent the mechanism of action from a drug to a dis
 
 
 **Links**:
-- https://sulab.github.io/DrugMechDB/
 - https://github.com/SuLab/DrugMechDB
+- https://sulab.github.io/DrugMechDB/
+- https://w3id.org/information-resource-registry/drugmechdb
 
 
 #### License information
@@ -1677,6 +1748,7 @@ _An expert-knowledge_assertion resource of ligand-activity-target relationships,
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/GtoPdb
+- https://w3id.org/information-resource-registry/gtopdb
 - https://www.guidetopharmacology.org
 
 
@@ -1700,6 +1772,7 @@ _No description._
 
 **Links**:
 - https://medlineplus.gov/
+- https://w3id.org/information-resource-registry/medlineplus
 
 
 #### License information
@@ -1721,6 +1794,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/hl7-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/HL7V3.0/index.html
 
 
@@ -1745,6 +1819,7 @@ _RepoDB is a standard dataset of drug repositioning successes and failures  that
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/repoDB
 - https://unmtid-shinyapps.net/shiny/repodb/
+- https://w3id.org/information-resource-registry/repodb
 
 
 #### License information
@@ -1767,6 +1842,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/HCPCS-Version-of-Current-Procedural-Terminology
+- https://w3id.org/information-resource-registry/hcp-codes-umls
 
 
 #### License information
@@ -1788,6 +1864,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/atc-codes-umls
 - https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/ATC/index.html
 
 
@@ -1811,6 +1888,7 @@ _encyclopedia of rare disease annotations for precision medicine_
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/eRAM
+- https://w3id.org/information-resource-registry/eram
 
 
 #### License information
@@ -1834,6 +1912,7 @@ _The RGD API_
 **Links**:
 - http://rgd.mcw.edu
 - https://rgd.mcw.edu/
+- https://w3id.org/information-resource-registry/rgd
 
 
 #### License information
@@ -1858,6 +1937,7 @@ _No description._
 
 **Links**:
 - https://genepio.org/
+- https://w3id.org/information-resource-registry/genepio
 
 
 #### License information
@@ -1879,6 +1959,7 @@ _provides comprehensive information and tools for the study of protein  post-tra
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/psite-plus
 - https://www.phosphosite.org/homeAction.action
 
 
@@ -1902,6 +1983,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Monarch-Initiative
+- https://w3id.org/information-resource-registry/monarchinitiative
 
 
 #### License information
@@ -1924,6 +2006,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/UniChem
+- https://w3id.org/information-resource-registry/unichem
 
 
 #### License information
@@ -1945,6 +2028,7 @@ _No description._
 
 
 **Links**:
+- https://w3id.org/information-resource-registry/mirbase
 - https://www.mirbase.org/
 
 
@@ -1968,6 +2052,7 @@ _No description._
 
 **Links**:
 - https://epsd.biocuckoo.cn
+- https://w3id.org/information-resource-registry/epsd
 
 
 #### License information
@@ -1989,8 +2074,9 @@ _Phenotype And Trait Ontology (PATO) is an ontology of phenotypic qualities (pro
 
 
 **Links**:
-- https://github.com/pato-ontology/pato/
 - https://github.com/NCATSTranslator/Translator-All/wiki/PATO
+- https://github.com/pato-ontology/pato/
+- https://w3id.org/information-resource-registry/pato
 
 
 #### License information
@@ -2013,6 +2099,7 @@ _Stub Resource page for mi. This page was automatically generated because it was
 
 **Links**:
 - http://www.obofoundry.org/ontology/mi.html
+- https://w3id.org/information-resource-registry/mi
 
 
 #### License information
@@ -2035,6 +2122,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/NBO
+- https://w3id.org/information-resource-registry/nbo
 
 
 #### License information
@@ -2057,6 +2145,7 @@ _No description._
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/BioLink-OWL
+- https://w3id.org/information-resource-registry/biolink-ontology
 
 
 #### License information
@@ -2079,6 +2168,7 @@ _iPTMnet is a bioinformatics resource for integrated understanding of protein po
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/iPTMnet
+- https://w3id.org/information-resource-registry/iptmnet
 
 
 #### License information
@@ -2101,6 +2191,7 @@ _This service provides screening of novel psychoactive compounds for pharmacolog
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/PDSP
+- https://w3id.org/information-resource-registry/pdsp
 
 
 #### License information
@@ -2123,6 +2214,7 @@ _Stub Resource page for ro. This page was automatically generated because it was
 
 **Links**:
 - http://www.obofoundry.org/ontology/ro.html
+- https://w3id.org/information-resource-registry/ro
 
 
 #### License information
@@ -2145,6 +2237,7 @@ _No description._
 
 **Links**:
 - http://www.obofoundry.org/ontology/ino.html
+- https://w3id.org/information-resource-registry/ino
 
 
 #### License information
@@ -2167,6 +2260,7 @@ _No description._
 
 **Links**:
 - https://obofoundry.org/ontology/bspo.html
+- https://w3id.org/information-resource-registry/bspo
 
 
 #### License information
@@ -2189,6 +2283,7 @@ _No description._
 
 **Links**:
 - http://www.obofoundry.org/ontology/ddanat.html
+- https://w3id.org/information-resource-registry/dda
 
 
 #### License information
@@ -2208,6 +2303,9 @@ No review information available.
 
 _No description._
 
+
+**Links**:
+- https://w3id.org/information-resource-registry/medical team
 
 
 #### License information

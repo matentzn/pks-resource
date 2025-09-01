@@ -245,6 +245,7 @@ _{{ description }}_
             urls.append(kgregistry_url)
         if reusabledata_url:
             urls.append(reusabledata_url)
+        urls.append(f"https://w3id.org/information-resource-registry/{source_id}")
         
         urls = list(set(urls))
         urls = sorted(urls)
