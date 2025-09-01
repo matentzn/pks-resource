@@ -182,7 +182,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `{{ domain_coverage_score }}` - {{ domain_coverage_comments }}
 - **Source Scope**: `{{ source_scope_score }}` - {{ source_scope_score_comment }}
 - **Drug Repurposing Utility**: `{{ utility_drugrepurposing_score }}` - {{ utility_drugrepurposing_comment }}
-<details>
+</details>
 {% else %}
 No review information available.
 </details>
@@ -247,6 +247,7 @@ _{{ description }}_
             urls.append(reusabledata_url)
         
         urls = list(set(urls))
+        urls = sorted(urls)
 
         pks_docstring = pks_jinja2_template.render(
             id = source_id,

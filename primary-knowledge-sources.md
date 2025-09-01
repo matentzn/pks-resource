@@ -17,8 +17,8 @@ _SemMedDB is a repository of semantic predications (subject-predicate-object tri
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/SemMedDB
 - https://lhncbc.nlm.nih.gov/temp/SemRep_SemMedDB_SKR/SemMedDB_download.html
+- https://github.com/NCATSTranslator/Translator-All/wiki/SemMedDB
 
 
 #### License information
@@ -40,7 +40,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `2` - Entities: drug,target,disease via UMLS CUIs; Relations: TREATS, INHIBITS, ASSOCIATED_WITH (~30 predicate types). Rich coverage but many edges generic/ambiguous.
 - **Source Scope**: `3` - Broad, cross-disease; >21M PubMed citations; 57.6M predications; thousands of drugs, diseases, genes; multi-relation subtypes
 - **Drug Repurposing Utility**: `1` - Direct edges: TREATS, INHIBITS, CAUSES, etc. present but NLP-extracted, noisy; predicates often generic; PubMed links but no confidence scores; precision ~70–80% → heavy filtering required
-<details>
+</details>
 
 
 ### Source: Search Tool for the Retrieval of Interacting Genes/Proteins (string)
@@ -49,9 +49,9 @@ _STRING is a database of known and predicted protein-protein interactions. The i
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/STRING
-- https://string-db.org/
 - https://string-db.org
+- https://string-db.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/STRING
 
 
 #### License information
@@ -74,7 +74,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `3` - Comprehensive gene/protein coverage with dense functional/physical associations and rich UniProt-based descriptors.
 - **Source Scope**: `3` - Global-scale, multi-species PPI/functional knowledgebase with millions of high-confidence edges from heterogeneous evidence.
 - **Drug Repurposing Utility**: `3` - Directly usable as a backbone for repurposing pipelines; confidence-scored PPI edges integrate seamlessly once drug and disease mappings are added.
-<details>
+</details>
 
 
 ### Source: PathWhiz (pathwhiz)
@@ -106,8 +106,8 @@ _A comprehensive, free-to-access, online database containing information on drug
 
 **Links**:
 - https://go.drugbank.com
-- https://github.com/NCATSTranslator/Translator-All/wiki/DrugBank
 - https://www.drugbank.com/
+- https://github.com/NCATSTranslator/Translator-All/wiki/DrugBank
 
 
 #### License information
@@ -131,8 +131,8 @@ _A graph representation of Ubergraph, an integration of ontologies including GO,
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/Ubergraph
 - https://ubergraph.apps.renci.org/sparql
+- https://github.com/NCATSTranslator/Translator-All/wiki/Ubergraph
 
 
 #### License information
@@ -221,7 +221,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `2` - Entities: target,gene + disease; Relation: T–D (~millions); mapped to DOID, STRING/HGNC/Ensembl; confidence scoring robust. No drugs or D–D/AEs.
 - **Source Scope**: `3` - Broad, cross-disease; millions of T–D edges; >19k genes, >8k diseases; integrates curated, GWAS, text mining; updated weekly.
 - **Drug Repurposing Utility**: `2` - Direct edges: T–D; millions of associations; 1–5 star confidence; AUC=0.916 for text mining. No direct drug links, no mechanism or AE context → requires integration with drug–target DBs.
-<details>
+</details>
 
 
 ### Source: NCBI Taxonomy (ncbi-taxonomy)
@@ -252,8 +252,8 @@ _A freely available electronic database containing detailed information about sm
 
 
 **Links**:
-- http://www.hmdb.ca
 - https://github.com/NCATSTranslator/Translator-All/wiki/HMDB
+- http://www.hmdb.ca
 
 
 #### License information
@@ -321,8 +321,8 @@ _Stub Resource page for ncit. This page was automatically generated because it w
 
 
 **Links**:
-- https://ncithesaurus-stage.nci.nih.gov
 - https://github.com/NCATSTranslator/Translator-All/wiki/NCIT
+- https://ncithesaurus-stage.nci.nih.gov
 
 
 #### License information
@@ -347,8 +347,8 @@ _Bgee is a database for retrieval and comparison of gene expression patterns acr
 
 **Links**:
 - https://github.com/NCATSTranslator/Translator-All/wiki/Bgee
-- https://www.bgee.org
 - https://www.bgee.org/
+- https://www.bgee.org
 
 
 #### License information
@@ -372,8 +372,8 @@ _Hetionet is an integrative network of biomedical knowledge assembled from 29 di
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/Hetionet
 - https://het.io/
+- https://github.com/NCATSTranslator/Translator-All/wiki/Hetionet
 
 
 #### License information
@@ -443,8 +443,8 @@ _The Library of Integrated Network-based Cellular Signatures (LINCS) is a compre
 
 
 **Links**:
-- https://lincsportal.ccs.miami.edu/signatures/home
 - https://github.com/NCATSTranslator/Translator-All/wiki/LINCS
+- https://lincsportal.ccs.miami.edu/signatures/home
 
 
 #### License information
@@ -466,7 +466,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `2` - Entities: drugs + genes (genetic perturbations), disease mainly as context; relations are perturbation→signature (L1000, P100/GCP, imaging). Rich metadata/FAIR, but no native D–T/T–D/D–D edges
 - **Source Scope**: `3` - Broad, cross-disease & multi-modality (L1000, proteomics, imaging, epigenetics); tens of thousands of perturbagens; hundreds of thousands of signatures; large multi-center program; FAIR & standardized.”
 - **Drug Repurposing Utility**: `2` - Strong for signature-based D→D (reversal/mimic) via CLUE/L1000CDS2; toxicity signatures (DToxS) aid filtering. Lacks curated D–T/T–D/D–D edges; needs join to DrugBank/ChEMBL/BindingDB and disease resources.
-<details>
+</details>
 
 
 ### Source: Reactome (reactome)
@@ -475,9 +475,9 @@ _Reactome from Biopax_
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/reactome
 - http://www.reactome.org
 - https://reactome.org
+- https://github.com/NCATSTranslator/Translator-All/wiki/reactome
 
 
 #### License information
@@ -523,7 +523,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `3` - Covers diseases, drugs/chemicals, genes/genomes, anatomy, phenotypes, procedures, functions; concepts standardized to CUIs with 134 semantic types and 54 relation families.
 - **Source Scope**: `3` - Unifies ~60 vocabularies (~900k concepts) spanning clinical medicine and life sciences, from MeSH and SNOMED to NCBI Taxonomy and early GO integration.
 - **Drug Repurposing Utility**: `2` - Provides schema-level relations (e.g., ‘Pharmacologic Substance TREATS Disease or Syndrome’, ‘interacts with’) but not instance-level curated edges, so mainly useful for normalization and relation templates.
-<details>
+</details>
 
 
 ### Source: Protein Ontology (pr)
@@ -577,9 +577,9 @@ _OMIM (Online Mendelian Inheritance in Man) is a continuously updated, expert-cu
 
 
 **Links**:
-- https://www.omim.org/
-- https://www.omim.org
 - https://github.com/NCATSTranslator/Translator-All/wiki/OMIM
+- https://www.omim.org
+- https://www.omim.org/
 
 
 #### License information
@@ -603,8 +603,8 @@ _focusing on three of the most commonly drug-targeted protein families: G-protei
 
 
 **Links**:
-- https://pharos.nih.gov/
 - https://github.com/NCATSTranslator/Translator-All/wiki/Pharos
+- https://pharos.nih.gov/
 
 
 #### License information
@@ -651,7 +651,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `2` - Rich ontology of small molecules with roles and structure descriptors; cross-referenced broadly; but lacks explicit gene/disease edges.
 - **Source Scope**: `3` - General-purpose backbone ontology of small molecules, roles, and classes; >400k entities; multi-resource integration; cross-disease, multi-use.
 - **Drug Repurposing Utility**: `1` - Great for harmonization (IDs, synonyms, chemical roles), but lacks curated D–T, T–D, or D–D edges; not plug-and-play for repurposing.
-<details>
+</details>
 
 
 ### Source: Human Phenotype Ontology (hpo-annotations)
@@ -840,9 +840,9 @@ _A robust, publicly available database that aims to advance understanding about 
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/CTD
 - http://ctdbase.org
 - https://ctdbase.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/CTD
 
 
 #### License information
@@ -866,8 +866,8 @@ _SIDER (Side Effect Resource) contains information on marketed medicines and the
 
 
 **Links**:
-- http://sideeffects.embl.de/
 - https://github.com/NCATSTranslator/Translator-All/wiki/SIDER
+- http://sideeffects.embl.de/
 
 
 #### License information
@@ -912,8 +912,8 @@ _MGI is the international database resource for the laboratory mouse, providing 
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/mgi
 - http://www.informatics.jax.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/mgi
 
 
 #### License information
@@ -937,7 +937,7 @@ Review information was generated specifically for the Matrix project and may not
 - **Domain Coverage**: `2` - Entities: gene, disease, phenotype; Relations: gene–phenotype (MP), mouse model→human disease (DO/OMIM), gene→GO, gene→expression (GXD); IDs: MGI/DO/MP/NCBI/PMID.
 - **Source Scope**: `3` - Backbone mouse resource; cross-disease; many phenotypes/models; multiple relation subtypes (phenotype, expression, GO, disease models); regular releases / bulk access.
 - **Drug Repurposing Utility**: `2` - Direct edges: T–D (mouse model→human disease) with PMIDs; IDs clean (DO/OMIM/NCBI/MGI). No D–T/D–D/AE—needs drug databases for D→T→D.
-<details>
+</details>
 
 
 ### Source: RxNorm (rxnorm)
@@ -1127,8 +1127,8 @@ _The Experimental Factor Ontology (EFO) provides a systematic description of man
 
 
 **Links**:
-- https://www.ebi.ac.uk/efo/
 - https://github.com/NCATSTranslator/Translator-All/wiki/EFO
+- https://www.ebi.ac.uk/efo/
 
 
 #### License information
@@ -1150,8 +1150,8 @@ _information on drug-gene interactions and druggable genes from publications, da
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/dgidb
 - https://dgidb.org
+- https://github.com/NCATSTranslator/Translator-All/wiki/dgidb
 
 
 #### License information
@@ -1286,8 +1286,8 @@ _Online drug information resource created and maintained by Division of Translat
 
 **Links**:
 - http://drugcentral.org
-- https://drugcentral.org/
 - https://github.com/NCATSTranslator/Translator-All/wiki/DrugCentral
+- https://drugcentral.org/
 
 
 #### License information
@@ -1443,8 +1443,8 @@ _The Mondo Disease Ontology (Mondo) aims to harmonize disease definitions across
 
 
 **Links**:
-- https://github.com/NCATSTranslator/Translator-All/wiki/mondo
 - https://mondo.monarchinitiative.org/
+- https://github.com/NCATSTranslator/Translator-All/wiki/mondo
 
 
 #### License information
@@ -1488,8 +1488,8 @@ _Zebrafish Information Network, including the Zebrafish Anatomical Ontology_
 
 
 **Links**:
-- http://zfin.org
 - https://zfin.org/
+- http://zfin.org
 
 
 #### License information
@@ -1605,9 +1605,9 @@ _The Saccharomyces Genome Database (SGD) project collects information and mainta
 
 
 **Links**:
+- https://www.yeastgenome.org/
 - https://yeastgenome.org/
 - http://www.yeastgenome.org/
-- https://www.yeastgenome.org/
 
 
 #### License information
@@ -1653,8 +1653,8 @@ _A database of paths that represent the mechanism of action from a drug to a dis
 
 
 **Links**:
-- https://github.com/SuLab/DrugMechDB
 - https://sulab.github.io/DrugMechDB/
+- https://github.com/SuLab/DrugMechDB
 
 
 #### License information
@@ -1832,8 +1832,8 @@ _The RGD API_
 
 
 **Links**:
-- https://rgd.mcw.edu/
 - http://rgd.mcw.edu
+- https://rgd.mcw.edu/
 
 
 #### License information
