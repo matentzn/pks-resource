@@ -1,0 +1,51 @@
+# curie_map:
+#   reusabledata: "https://reusabledata.org/"
+#   infores: "https://bioregistry.io/registry/infores/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_set_id: reusabledata-infores-mappings
+# mapping_set_version: 1.0.0
+# mapping_set_description: "Mappings between ReusableData.org resources and Information Resource (infores) identifiers"
+# creator_id: claude-code
+# mapping_date: 2025-01-03
+# license: CC-BY-4.0
+subject_id	predicate_id	object_id	mapping_justification	confidence	comment
+reusabledata:agr	skos:exactMatch	infores:agrkb	semapv:LexicalMatching	0.90	AGR maps to Alliance of Genome Resources knowledgebase
+reusabledata:bgee	skos:exactMatch	infores:bgee	semapv:LexicalMatching	0.95	Exact ID match - Bgee
+reusabledata:biogrid	skos:exactMatch	infores:biogrid	semapv:LexicalMatching	0.95	Exact ID match - BioGRID
+reusabledata:chembl	skos:exactMatch	infores:chembl	semapv:LexicalMatching	0.95	Exact ID match - ChEMBL
+reusabledata:civicdb	skos:exactMatch	infores:civic	semapv:LexicalMatching	0.90	CivicDB maps to CIViC
+reusabledata:clinvar	skos:exactMatch	infores:clinvar	semapv:LexicalMatching	0.95	Exact ID match - ClinVar
+reusabledata:ctd	skos:exactMatch	infores:ctd	semapv:LexicalMatching	0.95	Exact ID match - CTD
+reusabledata:dictybase	skos:exactMatch	infores:dictybase	semapv:LexicalMatching	0.95	Exact ID match - dictyBase
+reusabledata:drugbank	skos:exactMatch	infores:drugbank	semapv:LexicalMatching	0.95	Exact ID match - DrugBank
+reusabledata:drugcentral	skos:exactMatch	infores:drugcentral	semapv:LexicalMatching	0.95	Exact ID match - DrugCentral
+reusabledata:flybase	skos:exactMatch	infores:flybase	semapv:LexicalMatching	0.95	Exact ID match - FlyBase
+reusabledata:go-ann	skos:exactMatch	infores:goa	semapv:LexicalMatching	0.90	GO annotations map to GOA
+reusabledata:go-ont	skos:exactMatch	infores:go	semapv:LexicalMatching	0.90	GO ontology maps to GO
+reusabledata:gtex	skos:exactMatch	infores:gtex	semapv:LexicalMatching	0.95	Exact ID match - GTEx
+reusabledata:hmdb	skos:exactMatch	infores:hmdb	semapv:LexicalMatching	0.95	Exact ID match - HMDB
+reusabledata:hpo	skos:exactMatch	infores:hpo	semapv:LexicalMatching	0.95	Exact ID match - HPO
+reusabledata:mgi	skos:exactMatch	infores:mgi	semapv:LexicalMatching	0.95	Exact ID match - MGI
+reusabledata:monarch	skos:exactMatch	infores:monarchinitiative	semapv:LexicalMatching	0.90	Monarch maps to Monarch Initiative
+reusabledata:msigdb	skos:exactMatch	infores:msigdb	semapv:LexicalMatching	0.95	Exact ID match - MSigDB
+reusabledata:mygene-info	skos:exactMatch	infores:mygene-info	semapv:LexicalMatching	0.95	Exact ID match - MyGene.info
+reusabledata:myvariant-info	skos:exactMatch	infores:myvariant-info	semapv:LexicalMatching	0.95	Exact ID match - MyVariant.info
+reusabledata:ncbi-gene	skos:exactMatch	infores:ncbi-gene	semapv:LexicalMatching	0.95	Exact ID match - NCBI Gene
+reusabledata:ncit	skos:exactMatch	infores:ncit	semapv:LexicalMatching	0.95	Exact ID match - NCIt
+reusabledata:omim	skos:exactMatch	infores:omim	semapv:LexicalMatching	0.95	Exact ID match - OMIM
+reusabledata:orphanet-academic	skos:exactMatch	infores:orphanet	semapv:LexicalMatching	0.90	Orphanet academic maps to Orphanet
+reusabledata:orphanet-open	skos:exactMatch	infores:orphanet	semapv:LexicalMatching	0.90	Orphanet open maps to Orphanet
+reusabledata:panther	skos:exactMatch	infores:panther	semapv:LexicalMatching	0.95	Exact ID match - PANTHER
+reusabledata:pfam	skos:exactMatch	infores:pfam	semapv:LexicalMatching	0.95	Exact ID match - Pfam
+reusabledata:pharos	skos:exactMatch	infores:pharos	semapv:LexicalMatching	0.95	Exact ID match - Pharos
+reusabledata:pombase	skos:exactMatch	infores:pombase	semapv:LexicalMatching	0.95	Exact ID match - PomBase
+reusabledata:reactome	skos:exactMatch	infores:reactome	semapv:LexicalMatching	0.95	Exact ID match - Reactome
+reusabledata:rgd	skos:exactMatch	infores:rgd	semapv:LexicalMatching	0.95	Exact ID match - RGD
+reusabledata:rhea	skos:exactMatch	infores:rhea	semapv:LexicalMatching	0.95	Exact ID match - Rhea
+reusabledata:sgd	skos:exactMatch	infores:sgd	semapv:LexicalMatching	0.95	Exact ID match - SGD
+reusabledata:string	skos:exactMatch	infores:string	semapv:LexicalMatching	0.95	Exact ID match - STRING
+reusabledata:uniprotkb	skos:exactMatch	infores:uniprot	semapv:LexicalMatching	0.90	UniProtKB maps to UniProt
+reusabledata:wikipathways	skos:exactMatch	infores:wikipathways	semapv:LexicalMatching	0.95	Exact ID match - WikiPathways
+reusabledata:wormbase	skos:exactMatch	infores:wormbase	semapv:LexicalMatching	0.95	Exact ID match - WormBase
+reusabledata:zfin	skos:exactMatch	infores:zfin	semapv:LexicalMatching	0.95	Exact ID match - ZFIN
