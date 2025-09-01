@@ -2,10 +2,8 @@
 
 This resource will disappear. 
 
-To download external sources:
+To run the whole pipeline:
 
 ```
 make all
 ```
-
-Then you can run the notebook.
