@@ -114,6 +114,7 @@ def create_pks_subset_relevant_to_matrix(primary_knowledge_sources, relevant_sou
     return subset
 
 ##### Utilities for generating the documentation
+from jinja2 import Template
 
 def _get_property( source_info, property, default_value = "Unknown"):
     property_value = default_value
@@ -125,22 +126,108 @@ def _get_property( source_info, property, default_value = "Unknown"):
         property_value = source_info['reusabledata'][property]
     return property_value
     
+def _get_property_from_source(source_info, source, property, default="No value"):
+    if source in source_info:
+        if property in source_info[source]:
+            value = source_info[source][property]
+            if isinstance(value, str):
+                return value.strip()
+            else:
+                return value
+    return None
+
 def _format_license(source_info):
-    license_info_matrix = "Not available"
-    return license_info_matrix
+    pks_jinja2_template = Template("""#### License information
+
+- **Matrix manual curation**: {%if matrix_license_name is not none %}[{{ matrix_license_name }}]({{ matrix_license_url }}){% else %}No license information curated.{% endif %}
+- **KG Registry**: {%if kg_registry_license_id is not none %}{%if kg_registry_license_name is not none %}[{{ kg_registry_license_name }}]({{ kg_registry_license_id }}){% else %}{{ kg_registry_license_id }}{% endif %}{% else %}No license information available.{% endif %}
+- **Reusable Data**: {%if reusabledata_license is not none %}{{ reusabledata_license }} ({{ reusabledata_license_type | default("Unknown license type") }}){% else %}No license information available.{% endif %}{%if reusabledata_license_issues is not none %}
+   - _Issues_: {{ reusabledata_license_issues }}{% endif %}{%if reusabledata_license_commentary is not none %}
+   - _Commentary_: {{ reusabledata_license_commentary }}{% endif %}
+""")
+    matrix_license_name = _get_property_from_source(source_info, 'matrixcurated', 'license_name')
+    matrix_license_url = _get_property_from_source(source_info, 'matrixcurated', 'license_source_link')
+
+    kgregistry_license = _get_property_from_source(source_info, 'kgregistry', 'license')
+    kg_registry_license_name = kgregistry_license['name'] if kgregistry_license is not None and 'name' in kgregistry_license else None
+    kg_registry_license_id = kgregistry_license['id'] if kgregistry_license is not None and 'id' in kgregistry_license else None
+
+    reusabledata_license = _get_property_from_source(source_info, 'reusabledata', 'license')
+    reusabledata_license_commentary = _get_property_from_source(source_info, 'reusabledata', 'license-commentary-embeddable')
+    reusabledata_license_issues = _get_property_from_source(source_info, 'reusabledata', 'license-issues')
+    reusabledata_license_type = _get_property_from_source(source_info, 'reusabledata', 'license-type')
+
+    return pks_jinja2_template.render(
+        matrix_license_name=matrix_license_name,
+        matrix_license_url=matrix_license_url,
+        kg_registry_license_name=kg_registry_license_name,
+        kg_registry_license_id=kg_registry_license_id,
+        reusabledata_license=reusabledata_license,
+        reusabledata_license_type=reusabledata_license_type,
+        reusabledata_license_issues=reusabledata_license_issues,
+        reusabledata_license_commentary=reusabledata_license_commentary
+    )
 
 def _format_review(source_info):
-    review = "Not available"
-    return review
+    pks_jinja2_template = Template("""#### Review information for this resource
+
+{%if label_rubric is not none %}
+<details><summary>Expand to see detailed review</summary>
+Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
+
+- **Reviewer**: {{ reviewer }}
+- **Overall review score**:
+   - Reviewer: `{{ label_manual }}` - {{ label_manual_comment }}
+   - Rubric: `{{ label_rubric }}` - {{ label_rubric_rationale }}
+- **Domain Coverage**: `{{ domain_coverage_score }}` - {{ domain_coverage_comments }}
+- **Source Scope**: `{{ source_scope_score }}` - {{ source_scope_score_comment }}
+- **Drug Repurposing Utility**: `{{ utility_drugrepurposing_score }}` - {{ utility_drugrepurposing_comment }}
+<details>
+{% else %}
+No review information available.
+</details>
+{% endif %}
+""")
+    domain_coverage_comments = _get_property_from_source(source_info, 'matrixreviews', 'domain_coverage_comments')
+    domain_coverage_score = _get_property_from_source(source_info, 'matrixreviews', 'domain_coverage_score')
+    label_manual = _get_property_from_source(source_info, 'matrixreviews', 'label_manual')
+    label_manual_comment = _get_property_from_source(source_info, 'matrixreviews', 'label_manual_comment')
+    label_rubric = _get_property_from_source(source_info, 'matrixreviews', 'label_rubric')
+    label_rubric_rationale = _get_property_from_source(source_info, 'matrixreviews', 'label_rubric_rationale')
+    reviewer = _get_property_from_source(source_info, 'matrixreviews', 'reviewer')
+    source_scope_score = _get_property_from_source(source_info, 'matrixreviews', 'source_scope_score')
+    source_scope_score_comment = _get_property_from_source(source_info, 'matrixreviews', 'source_scope_score_comment')
+    utility_drugrepurposing_comment = _get_property_from_source(source_info, 'matrixreviews', 'utility_drugrepurposing_comment')
+    utility_drugrepurposing_score = _get_property_from_source(source_info, 'matrixreviews', 'utility_drugrepurposing_score')
+    
+    return pks_jinja2_template.render(
+        domain_coverage_comments=domain_coverage_comments,
+        domain_coverage_score=domain_coverage_score,
+        label_manual=label_manual,
+        label_manual_comment=label_manual_comment,
+        label_rubric=label_rubric,
+        label_rubric_rationale=label_rubric_rationale,
+        reviewer=reviewer,
+        source_scope_score=source_scope_score,
+        source_scope_score_comment=source_scope_score_comment,
+        utility_drugrepurposing_comment=utility_drugrepurposing_comment,
+        utility_drugrepurposing_score=utility_drugrepurposing_score
+    )
 
 def generate_list_of_pks_markdown_strings(source_data):
     pks_jinja2_template = Template("""### Source: {{ title }} ({{ id }})
 
 _{{ description }}_
 
-- **URL**: {{ url }}
-- **License**: {{ license }}
-- **Review**: {{ review }}""")
+{% if urls %}
+**Links**:
+{% for url in urls -%}
+- {{ url }}
+{% endfor %}{% endif %}
+
+{{ license }}
+
+{{ review }}""")
 
     pks_documentation_texts = []
     for source_id, source_info in source_data.items():
@@ -148,11 +235,24 @@ _{{ description }}_
         description = _get_property(source_info, 'description', default_value="No description.")
         license = _format_license(source_info)
         review = _format_review(source_info)
+        urls = []
+        infores_url = _get_property_from_source(source_info, 'infores', 'xref')
+        kgregistry_url = _get_property_from_source(source_info, 'kgregistry', 'homepage_url')
+        reusabledata_url = _get_property_from_source(source_info, 'reusabledata', 'source-link')
+        if infores_url:
+            urls.extend(infores_url)
+        if kgregistry_url:
+            urls.append(kgregistry_url)
+        if reusabledata_url:
+            urls.append(reusabledata_url)
+        
+        urls = list(set(urls))
+
         pks_docstring = pks_jinja2_template.render(
             id = source_id,
             title=name,
             description=description,
-            url=_get_property(source_info, 'url', default_value="No URL"),
+            urls=urls,
             license=license,
             review=review
         )
