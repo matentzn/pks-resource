@@ -1,4 +1,4 @@
-## Overview of Matrix KG Primary Knowledge Sources
+# KG Primary Knowledge Sources
                                    
 This page is automatically generated with curated information about primary knowledge sources
 leveraged in the MATRIX Knowledge Graph, mainly regarding licensing information and 
@@ -9,6 +9,110 @@ This internally curated information is augmented with information from three ext
 1. [Information Resource Registry](https://biolink.github.io/information-resource-registry/)
 2. [reusabledata.org](https://reusabledata.org/)
 3. [KG Registry](https://kghub.org/kg-registry/)
+
+## Overview
+
+**Overview table**
+
+
+
+| Resource | License |
+| -------- | ------- |
+| Semantic Medline Database | [UMLS Metathesaurus](https://academic.oup.com/bioinformatics/article/28/23/3158/195282) |
+| Search Tool for the Retrieval of Interacting Genes/Proteins | [CC BY 4.0](https://string-db.org/cgi/access?footer_active_subpage=licensing) |
+| PathWhiz | [David Wishart, Departments of Computing Science & Biological Sciences, University of Alberta.](https://smpdb.ca/pathwhiz) |
+| DrugBank | [CC BY-NC 4.0 (Complete Database including structures, external links, protein identifiers, target sequences, drug sequences), CC0 1.0 (Open Data)](https://go.drugbank.com/releases/latest#open-data) |
+| Ubergraph | [Aggregated data — follows licenses of primary data sources](https://github.com/INCATools/ubergraph?tab=BSD-3-Clause-1-ov-file) |
+| Ensembl gene | [Apache 2.0](https://useast.ensembl.org/info/about/legal/code_licence.html) |
+| BindingDB | [CC BY 3.0 (BindingDB curated), CC BY-SA 3.0 (ChEMBL-derived)](https://www.bindingdb.org/rwd/bind/info.jsp) |
+| DISEASES | [CC BY 4.0](https://diseases.jensenlab.org/About) |
+| NCBI Taxonomy | [CC0 1.0](https://kghub.org/kg-registry/resource/ncbitaxon/ncbitaxon.html) |
+| Human Metabolome Database  | [CC BY 4.0](https://hmdb.ca/about) |
+| Text Mining Targeted Association API | [CC BY 4.0](https://smart-api.info/ui/978fe380a147a8641caf72320862697b) |
+| IntAct | [CC BY 4.0 (all datasets), Software/Tools: Apache License 2.0 (code, web services, curator tools, branding)](https://www.ebi.ac.uk/intact/about#license_privacy) |
+| National Cancer Institute Thesaurus | [CC BY 4.0](https://evs.nci.nih.gov/license) |
+| Bgee | [CC0 1.0](https://www.bgee.org/about/) |
+| Hetionet | [CC BY 4.0](https://het.io/about/) |
+| Medical Subject Headings Thesaurus | [UMLS Metathesaurus](https://uts.nlm.nih.gov/uts/assets/LicenseAgreement.pdf) |
+| Panther Classification System | [CC BY 4.0](https://pantherdb.org/tou.jsp) |
+| Library of Integrated Network-Based Cellular Signatures | [CC BY 4.0](https://lincsportal.ccs.miami.edu/datasets/terms) |
+| Reactome | [CC0 1.0 (All Data), CC BY 4.0 (Pathway art/branding), Apache 2.0 (Software/code - some exceptions)](https://reactome.org/license) |
+| UMLS Metathesaurus (MTH) (from UMLS) | [UMLS Metathesaurus](https://www.nlm.nih.gov/databases/umls.html) |
+| Protein Ontology | [CC BY 4.0](https://obofoundry.org/ontology/pr.html) |
+| DisGeNET | [CC BY 4.0 (for most of its sources)](https://disgenet.com/Legal) |
+| Online Mendelian Inheritance in Man (OMIM) | [Custom Johns Hopkins University OMIM Use Agreement](https://www.omim.org/help/agreement) |
+| Pharos | [Aggregated data — follows licenses of primary data sources](https://pharos.nih.gov/about) |
+| Chemical Entity of Biological Interest | [CC BY 4.0](https://www.ebi.ac.uk/chebi/aboutChebiForward.do) |
+| Human Phenotype Ontology | [Custom HPO License — free use with attribution, version/date display, and no content alteration without approval](https://hpo.jax.org/license) |
+| Gene Ontology Annotations | [CC BY 4.0](https://geneontology.org/docs/go-citation-policy/) |
+| FDA Adverse Event Reporting System | [Public Domain and CC0 1.0](https://open.fda.gov/data/faers/) |
+| Foundational Model of Anatomy Ontology (FMA -- both from UMLS and from OBO) | [CC BY 3.0](http://si.washington.edu/info-books/project-details/foundational-model-of-anatomy/accessing-the-fma-ontology/) |
+| National Center for Biotechnology Information Gene | [CC0 1.0](https://kghub.org/kg-registry/resource/ncbigene/ncbigene.html) |
+| Gene Ontology | [CC BY 4.0](https://geneontology.org/docs/go-citation-policy/) |
+| ICD10PCS (from UMLS) | [UMLS Metathesaurus](https://bioportal.bioontology.org/ontologies/ICD10PCS) |
+| Tissue Expression Database | [CC BY 4.0](https://tissues.jensenlab.org/About) |
+| Comparative Toxicogenomics Database | [Custom CTD License — free for research/education; commercial use requires written permission; attribution, linking, and usage notification required](https://ctdbase.org/about/legal.jsp) |
+| SIDER | [CC BY-NC-SA 4.0](http://sideeffects.embl.de/about/) |
+| Orphanet | [CC BY 4.0](https://www.orphadata.com/about-us/) |
+| Mouse Genome Informatics | [CC BY 4.0](https://www.informatics.jax.org/mgihome/other/copyright.shtml) |
+| RxNorm | [UMLS Metathesaurus](https://www.nlm.nih.gov/research/umls/rxnorm/faq.html#faq-about-rxnorm) |
+| Medication Reference Terminology (MED-RT) (from UMLS) | [UMLS Metathesaurus](https://evs.nci.nih.gov/ftp1/MED-RT/MED-RT%20Documentation.pdf) |
+| Gene Ontology Plus | [CC BY 4.0](https://geneontology.org/docs/go-citation-policy/) |
+| Foundational Model of Anatomy Ontology (FMA -- both from UMLS and from OBO) | [CC BY 3.0](http://si.washington.edu/info-books/project-details/foundational-model-of-anatomy/accessing-the-fma-ontology/) |
+| ChEMBL | [CC BY-SA 3.0](https://chembl.gitbook.io/chembl-interface-documentation/about) |
+| Veterans Association National Drug File (VANDF) (from UMLS) | [UMLS Metathesaurus](https://bioportal.bioontology.org/ontologies/VANDF) |
+| Orphanet Rare Disease Ontology | [CC BY 4.0](https://www.orphadata.com/about-us/) |
+| UniProt Knowledgebase | [CC BY 4.0](https://www.uniprot.org/help/license) |
+| Experimental Factor Ontology | [Apache 2.0](https://kghub.org/kg-registry/resource/efo/efo.html) |
+| Drug Gene Interaction Database | [MIT License](https://dgidb.org/about/overview/data-accessibility) |
+| SIGNOR 3.0 | [CC BY 4.0](https://signor.uniroma2.it/) |
+| Food Ontology | [CC BY 4.0](https://obofoundry.org/ontology/foodon.html) |
+| Cell Ontology | [CC BY 4.0](https://obofoundry.org/ontology/cl.html) |
+| HUGO Gene Nomenclature Committee | [Public Domain and CC0](https://www.genenames.org/about/license/) |
+| ICD9CM (from UMLS) | [UMLS Metathesaurus](https://bioportal.bioontology.org/ontologies/ICD9CM) |
+| DrugCentral | [CC BY-SA 4.0](https://drugcentral.org/privacy) |
+| National Drug Data File (NDDF) (from UMLS) | [UMLS Metathesaurus](https://bioportal.bioontology.org/ontologies/NDDF) |
+| NCBI Taxonomy Ontology | [CC0 1.0](https://obofoundry.org/ontology/ncbitaxon.html) |
+| Psychological Index Terms (PSY) (from UMLS) | [UMLS Metathesaurus](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/PSY/stats.html) |
+| Human Phenotype Ontology | [Custom HPO License — free use with attribution, version/date display, and no content alteration without approval](https://hpo.jax.org/license) |
+| Target Illumination GWAS Analytics | [BSD-2-Clause](https://academic.oup.com/bioinformatics/article/37/21/3865/6292081) |
+| MONDO Disease Ontology | [CC BY 4.0](https://mondo.monarchinitiative.org/#license) |
+| Kyoto Encyclopedia of Genes and Genomes (KEGG) | [Proprietary (Kanehisa Laboratories) — free for academic web access; FTP subscription required for academic service use; commercial use requires paid license](https://www.kegg.jp/kegg/legal.html) |
+| Zebrafish Information Network | [CC BY 4.0](https://zfin.atlassian.net/wiki/spaces/general/pages/1942160112/WARRANTY+AND+LIABILITY+DISCLAIMER+OWNERSHIP+AND+LIMITS+ON+USE) |
+| Uber Anatomy Ontology | [CC BY 3.0](https://obofoundry.org/ontology/uberon.html) |
+| Disease Ontology | [CC0 1.0](https://disease-ontology.org/about/) |
+| FlyBase | [CC BY 4.0](https://wiki.flybase.org/wiki/FlyBase:About#FlyBase_Licenses_and_Availability) |
+| Physician Data Query (PDQ) (from UMLS) | [UMLS Metathesaurus](https://bioportal.bioontology.org/ontologies/PDQ) |
+| Saccharomyces Genome Database | [CC BY 4.0](https://sites.google.com/view/yeastgenome-help/about) |
+| Human Developmental Anatomy Ontology | [CC BY 4.0](https://obofoundry.org/ontology/ehdaa2.html) |
+| DrugMechDB | [CC BY 4.0](https://www.nature.com/articles/s41597-023-02534-z#:~:text=(DrugMechDB)%2C%20a%20manually%20curated&text=Open%20Access%20This%20article%20is%20licensed%20under%20a%20Creative%20Commons%20Attribution%204.0%20International%20License) |
+| Guide to Pharmacology | [CC BY-SA 4.0](https://www.guidetopharmacology.org/download.jsp#:~:text=The%20Guide%20to%20PHARMACOLOGY%20database,Open%20Database%20License%20(ODbL).) |
+| MedlinePlus (from UMLS) | [UMLS Metathesaurus](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MEDLINEPLUS/index.html) |
+| Health Level Seven (HL7) (from UMLS) | [UMLS Metathesaurus](https://uts.nlm.nih.gov/uts/assets/LicenseAgreement.pdf) |
+| Drug Repositioning Database | [CC BY 4.0](https://www.nature.com/articles/sdata201729) |
+| Healthcare Common Procedure Coding System (from UMLS) | [UMLS Metathesaurus](https://uts.nlm.nih.gov/uts/assets/LicenseAgreement.pdf) |
+| Anatomical Therapeutic Chemical (ATC) Codes (from UMLS) | [UMLS Metathesaurus](https://uts.nlm.nih.gov/uts/assets/LicenseAgreement.pdf) |
+| eRAM: encyclopedia of rare disease annotations for precision medicine | [Custom eRAM License — free for academic/non-profit use; commercial use requires a paid license; provided “as-is” with no liability](http://119.3.41.228/eram/download.php) |
+| RGD API | [CC BY 4.0](https://rgd.mcw.edu/wg/disclaimer/#:~:text=Data%20in%20RGD%20are%20provided,You%20are%20free%20to%E2%80%A6&text=Adapt:%20remix%2C%20transform%2C%20and,for%20any%20purpose%2C%20even%20commercially.) |
+| Genomic Epidemiology Ontology | [CC BY 3.0](https://obofoundry.org/ontology/genepio.html) |
+| PhosphoSitePlus | [CC BY-NC-SA 3.0](https://www.phosphosite.org/homeAction) |
+| Monarch Initiative | [BSD-3-Clause](https://monarchinitiative.org/kg/terms) |
+| UniChem | [CC BY 4.0](https://www.ebi.ac.uk/training/online/courses/unichem-quick-tour/what-is-unichem/) |
+| The microRNA Database | [Public Domain](https://www.mirbase.org/download/CURRENT/LICENSE/#:~:text=miRBase%20is%20in%20the%20public,MIRBASE%20DATABASE%2C%20EVEN%20IF%20THE) |
+| EPSD | [No License Mentioned](nan) |
+| Phenotype and Trait Ontology | [CC BY 3.0](https://obofoundry.org/ontology/pato.html) |
+| Molecular Interactions Controlled Vocabulary | [CC BY 4.0](https://obofoundry.org/ontology/mi.html) |
+| Neuro Behavior Ontology | [CC BY 3.0](https://bioregistry.io/registry/nbo) |
+| Biolink ontology | [Public Domain and CC0 1.0](https://www.ebi.ac.uk/ols4/ontologies/biolink) |
+| iPTMnet | [CC BY-NC-SA 4.0](https://research.bioinformatics.udel.edu/iptmnet/license) |
+| Psychoactive Drug Screening Program | [CC BY-NC-SA 4.0](https://www.nature.com/nature-index/institution-outputs/articles/all/global/United%20States%20of%20America%20%28USA%29/NIMH%20Psychoactive%20Drug%20Screening%20Program%20%28PDSP%29/) |
+| Relations Ontology | [CC0 1.0](https://obofoundry.org/ontology/ro.html) |
+| Interaction Network Ontology | [CC BY 3.0](https://obofoundry.org/ontology/ino.html) |
+| Biological Spatial Ontology | [CC BY 3.0](https://obofoundry.org/ontology/bspo.html) |
+| Dictyostelium discoideum anatomy | [CC0 1.0](https://bioregistry.io/registry/ddanat) |
+
+
+## Detailed information about each primary knowledge sources
 
 
 ### Source: Semantic Medline Database (semmeddb)
@@ -99,7 +203,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: DrugBank (drugbank)
@@ -126,7 +229,6 @@ _A comprehensive, free-to-access, online database containing information on drug
 
 
 No review information available.
-</details>
 
 
 ### Source: Ubergraph (ubergraph)
@@ -150,7 +252,6 @@ _A graph representation of Ubergraph, an integration of ontologies including GO,
 
 
 No review information available.
-</details>
 
 
 ### Source: Ensembl gene (ensembl-gene)
@@ -173,7 +274,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: BindingDB (bindingdb)
@@ -197,7 +297,6 @@ _BindingDB is a public, web-accessible database of measured binding affinities, 
 
 
 No review information available.
-</details>
 
 
 ### Source: DISEASES (diseases)
@@ -252,7 +351,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Human Metabolome Database  (hmdb)
@@ -278,7 +376,6 @@ _A freely available electronic database containing detailed information about sm
 
 
 No review information available.
-</details>
 
 
 ### Source: Text Mining Targeted Association API (text-mining-provider-targeted)
@@ -301,7 +398,6 @@ _API serving explicitly targeted Biolink Associations extracted from sentences i
 
 
 No review information available.
-</details>
 
 
 ### Source: IntAct (intact)
@@ -324,7 +420,6 @@ _Stub Resource page for intact. This page was automatically generated because it
 
 
 No review information available.
-</details>
 
 
 ### Source: National Cancer Institute Thesaurus (ncit)
@@ -350,7 +445,6 @@ _Stub Resource page for ncit. This page was automatically generated because it w
 
 
 No review information available.
-</details>
 
 
 ### Source: Bgee (bgee)
@@ -377,7 +471,6 @@ _Bgee is a database for retrieval and comparison of gene expression patterns acr
 
 
 No review information available.
-</details>
 
 
 ### Source: Hetionet (hetionet)
@@ -401,7 +494,6 @@ _Hetionet is an integrative network of biomedical knowledge assembled from 29 di
 
 
 No review information available.
-</details>
 
 
 ### Source: Medical Subject Headings Thesaurus (mesh)
@@ -424,7 +516,6 @@ _Stub Resource page for mesh. This page was automatically generated because it w
 
 
 No review information available.
-</details>
 
 
 ### Source: Panther Classification System (panther)
@@ -451,7 +542,6 @@ _PANTHER is a Protein ANalysis THrough Evolutionary Relationships Classification
 
 
 No review information available.
-</details>
 
 
 ### Source: Library of Integrated Network-Based Cellular Signatures (lincs)
@@ -511,7 +601,6 @@ _Reactome from Biopax_
 
 
 No review information available.
-</details>
 
 
 ### Source: UMLS Metathesaurus (MTH) (from UMLS) (umls-metathesaurus)
@@ -566,7 +655,6 @@ _Stub Resource page for pr. This page was automatically generated because it was
 
 
 No review information available.
-</details>
 
 
 ### Source: DisGeNET (disgenet)
@@ -590,7 +678,6 @@ _DisGeNET is the world's largest and most extensive gene-disease association (GD
 
 
 No review information available.
-</details>
 
 
 ### Source: Online Mendelian Inheritance in Man (OMIM) (omim)
@@ -617,7 +704,6 @@ _OMIM (Online Mendelian Inheritance in Man) is a continuously updated, expert-cu
 
 
 No review information available.
-</details>
 
 
 ### Source: Pharos (pharos)
@@ -643,7 +729,6 @@ _focusing on three of the most commonly drug-targeted protein families: G-protei
 
 
 No review information available.
-</details>
 
 
 ### Source: Chemical Entity of Biological Interest (chebi)
@@ -699,7 +784,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Gene Ontology Annotations (goa)
@@ -722,7 +806,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: FDA Adverse Event Reporting System (faers)
@@ -745,7 +828,6 @@ _The FDA Adverse Event Reporting System (FAERS) is a database that contains info
 
 
 No review information available.
-</details>
 
 
 ### Source: Foundational Model of Anatomy Ontology (FMA -- both from UMLS and from OBO) (fma-umls)
@@ -768,7 +850,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: National Center for Biotechnology Information Gene (ncbi-gene)
@@ -794,7 +875,6 @@ _Gene integrates information from a wide range of species. A record may include 
 
 
 No review information available.
-</details>
 
 
 ### Source: Gene Ontology (go)
@@ -818,7 +898,6 @@ _The Gene Ontology resource, the world’s largest source of information on the 
 
 
 No review information available.
-</details>
 
 
 ### Source: ICD10PCS (from UMLS) (icd10pcs-umls)
@@ -841,7 +920,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Tissue Expression Database (tissues-expression-db)
@@ -864,7 +942,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Comparative Toxicogenomics Database (ctd)
@@ -891,7 +968,6 @@ _A robust, publicly available database that aims to advance understanding about 
 
 
 No review information available.
-</details>
 
 
 ### Source: SIDER (sider)
@@ -915,7 +991,6 @@ _SIDER (Side Effect Resource) contains information on marketed medicines and the
 
 
 No review information available.
-</details>
 
 
 ### Source: Orphanet (orphanet)
@@ -939,7 +1014,6 @@ _Orphanet is a unique resource for information and data on rare diseases and orp
 
 
 No review information available.
-</details>
 
 
 ### Source: Mouse Genome Informatics (mgi)
@@ -997,7 +1071,6 @@ _normalized names for clinical drugs and links its names to many of the drug voc
 
 
 No review information available.
-</details>
 
 
 ### Source: Medication Reference Terminology (MED-RT) (from UMLS) (medrt-umls)
@@ -1020,7 +1093,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Gene Ontology Plus (go-plus)
@@ -1043,7 +1115,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Foundational Model of Anatomy Ontology (FMA -- both from UMLS and from OBO) (fma-obo)
@@ -1066,7 +1137,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: ChEMBL (chembl)
@@ -1092,7 +1162,6 @@ _a manually knowledge_assertion database of bioactive molecules with drug-like p
 
 
 No review information available.
-</details>
 
 
 ### Source: Veterans Association National Drug File (VANDF) (from UMLS) (vandf-umls)
@@ -1115,7 +1184,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Orphanet Rare Disease Ontology (ordo)
@@ -1139,7 +1207,6 @@ _The Orphanet Rare Disease Ontology (ORDO) is an open-access ontology developed 
 
 
 No review information available.
-</details>
 
 
 ### Source: UniProt Knowledgebase (uniprot)
@@ -1163,7 +1230,6 @@ _UniProt Protein Knowledge Base_
 
 
 No review information available.
-</details>
 
 
 ### Source: Experimental Factor Ontology (efo)
@@ -1187,7 +1253,6 @@ _The Experimental Factor Ontology (EFO) provides a systematic description of man
 
 
 No review information available.
-</details>
 
 
 ### Source: Drug Gene Interaction Database (dgidb)
@@ -1211,7 +1276,6 @@ _information on drug-gene interactions and druggable genes from publications, da
 
 
 No review information available.
-</details>
 
 
 ### Source: SIGNOR 3.0 (signor)
@@ -1234,7 +1298,6 @@ _SIGNOR (SIGnaling Network Open Resource) is a manually curated repository of ex
 
 
 No review information available.
-</details>
 
 
 ### Source: Food Ontology (foodon)
@@ -1257,7 +1320,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Cell Ontology (cl)
@@ -1281,7 +1343,6 @@ _The Cell Ontology (CL) is a structured controlled vocabulary for cell types in 
 
 
 No review information available.
-</details>
 
 
 ### Source: HUGO Gene Nomenclature Committee (hgnc)
@@ -1305,7 +1366,6 @@ _HGNC is the HUGO Gene Nomenclature Committee. It is a resource for approved hum
 
 
 No review information available.
-</details>
 
 
 ### Source: ICD9CM (from UMLS) (icd9cm-umls)
@@ -1328,7 +1388,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: DrugCentral (drugcentral)
@@ -1355,7 +1414,6 @@ _Online drug information resource created and maintained by Division of Translat
 
 
 No review information available.
-</details>
 
 
 ### Source: National Drug Data File (NDDF) (from UMLS) (nddf-umls)
@@ -1377,7 +1435,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: No name (chv-umls)
@@ -1400,7 +1457,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: NCBI Taxonomy Ontology (ncbi-taxon)
@@ -1423,7 +1479,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Psychological Index Terms (PSY) (from UMLS) (psy-umls)
@@ -1446,7 +1501,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Human Phenotype Ontology (hpo)
@@ -1472,7 +1526,6 @@ _A curated database of human hereditary syndromes from OMIM, Orphanet, and DECIP
 
 
 No review information available.
-</details>
 
 
 ### Source: Target Illumination GWAS Analytics (tiga)
@@ -1495,7 +1548,6 @@ _Aggregating and assessing experimental evidence for interpretable, explainable,
 
 
 No review information available.
-</details>
 
 
 ### Source: MONDO Disease Ontology (mondo)
@@ -1519,7 +1571,6 @@ _The Mondo Disease Ontology (Mondo) aims to harmonize disease definitions across
 
 
 No review information available.
-</details>
 
 
 ### Source: Kyoto Encyclopedia of Genes and Genomes (KEGG) (kegg)
@@ -1542,7 +1593,6 @@ _The Kyoto Encyclopedia of Genes and Genomes (KEGG) is a database resource for u
 
 
 No review information available.
-</details>
 
 
 ### Source: Zebrafish Information Network (zfin)
@@ -1568,7 +1618,6 @@ _Zebrafish Information Network, including the Zebrafish Anatomical Ontology_
 
 
 No review information available.
-</details>
 
 
 ### Source: Uber Anatomy Ontology (uberon)
@@ -1592,7 +1641,6 @@ _An integrated cross-species anatomy ontology representing a variety of anatomic
 
 
 No review information available.
-</details>
 
 
 ### Source: Disease Ontology (disease-ontology)
@@ -1615,7 +1663,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: FlyBase (flybase)
@@ -1641,7 +1688,6 @@ _A Database of Drosophila Genes & Genomes_
 
 
 No review information available.
-</details>
 
 
 ### Source: Physician Data Query (PDQ) (from UMLS) (pdq-umls)
@@ -1664,7 +1710,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Saccharomyces Genome Database (sgd)
@@ -1691,7 +1736,6 @@ _The Saccharomyces Genome Database (SGD) project collects information and mainta
 
 
 No review information available.
-</details>
 
 
 ### Source: Human Developmental Anatomy Ontology (ehdaa2)
@@ -1714,7 +1758,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: DrugMechDB (drugmechdb)
@@ -1738,7 +1781,6 @@ _A database of paths that represent the mechanism of action from a drug to a dis
 
 
 No review information available.
-</details>
 
 
 ### Source: Guide to Pharmacology (gtopdb)
@@ -1762,7 +1804,6 @@ _An expert-knowledge_assertion resource of ligand-activity-target relationships,
 
 
 No review information available.
-</details>
 
 
 ### Source: MedlinePlus (from UMLS) (medlineplus)
@@ -1785,7 +1826,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Health Level Seven (HL7) (from UMLS) (hl7-umls)
@@ -1808,7 +1848,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Drug Repositioning Database (repodb)
@@ -1832,7 +1871,6 @@ _RepoDB is a standard dataset of drug repositioning successes and failures  that
 
 
 No review information available.
-</details>
 
 
 ### Source: Healthcare Common Procedure Coding System (from UMLS) (hcp-codes-umls)
@@ -1855,7 +1893,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Anatomical Therapeutic Chemical (ATC) Codes (from UMLS) (atc-codes-umls)
@@ -1878,7 +1915,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: eRAM: encyclopedia of rare disease annotations for precision medicine (eram)
@@ -1901,7 +1937,6 @@ _encyclopedia of rare disease annotations for precision medicine_
 
 
 No review information available.
-</details>
 
 
 ### Source: RGD API (rgd)
@@ -1927,7 +1962,6 @@ _The RGD API_
 
 
 No review information available.
-</details>
 
 
 ### Source: Genomic Epidemiology Ontology (genepio)
@@ -1950,7 +1984,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: PhosphoSitePlus (psite-plus)
@@ -1973,7 +2006,6 @@ _provides comprehensive information and tools for the study of protein  post-tra
 
 
 No review information available.
-</details>
 
 
 ### Source: Monarch Initiative (monarchinitiative)
@@ -1996,7 +2028,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: UniChem (unichem)
@@ -2019,7 +2050,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: The microRNA Database (mirbase)
@@ -2042,7 +2072,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: EPSD (epsd)
@@ -2065,7 +2094,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Phenotype and Trait Ontology (pato)
@@ -2089,7 +2117,6 @@ _Phenotype And Trait Ontology (PATO) is an ontology of phenotypic qualities (pro
 
 
 No review information available.
-</details>
 
 
 ### Source: Molecular Interactions Controlled Vocabulary (mi)
@@ -2112,7 +2139,6 @@ _Stub Resource page for mi. This page was automatically generated because it was
 
 
 No review information available.
-</details>
 
 
 ### Source: Neuro Behavior Ontology (nbo)
@@ -2135,7 +2161,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Biolink ontology (biolink-ontology)
@@ -2158,7 +2183,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: iPTMnet (iptmnet)
@@ -2181,7 +2205,6 @@ _iPTMnet is a bioinformatics resource for integrated understanding of protein po
 
 
 No review information available.
-</details>
 
 
 ### Source: Psychoactive Drug Screening Program (pdsp)
@@ -2204,7 +2227,6 @@ _This service provides screening of novel psychoactive compounds for pharmacolog
 
 
 No review information available.
-</details>
 
 
 ### Source: Relations Ontology (ro)
@@ -2227,7 +2249,6 @@ _Stub Resource page for ro. This page was automatically generated because it was
 
 
 No review information available.
-</details>
 
 
 ### Source: Interaction Network Ontology (ino)
@@ -2250,7 +2271,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Biological Spatial Ontology (bspo)
@@ -2273,7 +2293,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: Dictyostelium discoideum anatomy (dda)
@@ -2296,7 +2315,6 @@ _No description._
 
 
 No review information available.
-</details>
 
 
 ### Source: No name (medical team)
@@ -2318,5 +2336,4 @@ _No description._
 
 
 No review information available.
-</details>
 

@@ -185,7 +185,6 @@ Review information was generated specifically for the Matrix project and may not
 </details>
 {% else %}
 No review information available.
-</details>
 {% endif %}
 """)
     domain_coverage_comments = _get_property_from_source(source_info, 'matrixreviews', 'domain_coverage_comments')
@@ -261,8 +260,8 @@ _{{ description }}_
         pks_documentation_texts.append(pks_docstring)
     return pks_documentation_texts
 
-def generate_pks_markdown_documentation(pks_documentation_texts):
-    pks_jinja2_template = Template("""## {{ title }}
+def generate_pks_markdown_documentation(pks_documentation_texts, overview_table):
+    pks_jinja2_template = Template("""# {{ title }}
                                    
 This page is automatically generated with curated information about primary knowledge sources
 leveraged in the MATRIX Knowledge Graph, mainly regarding licensing information and 
@@ -274,14 +273,51 @@ This internally curated information is augmented with information from three ext
 2. [reusabledata.org](https://reusabledata.org/)
 3. [KG Registry](https://kghub.org/kg-registry/)
 
+## Overview
+
+{{ overview_table }}
+
+## Detailed information about each primary knowledge sources
+
 {% for doc in pks_documentation_texts %}
 {{ doc }}
 {% endfor %}
 """)
-
     pks_docs = pks_jinja2_template.render(
-        title="Overview of Matrix KG Primary Knowledge Sources",
-        pks_documentation_texts=pks_documentation_texts
+        title="KG Primary Knowledge Sources",
+        pks_documentation_texts=pks_documentation_texts,
+        overview_table=overview_table
     )
     return pks_docs
 
+def generate_overview_table_of_pks_markdown(source_data):
+    pks_jinja2_template = Template("""**Overview table**
+
+
+{% if data %}
+| Resource | License |
+| -------- | ------- |
+{% for rec in data -%}
+| {{ rec.name }} | {%if rec.license_name is not none %}[{{ rec.license_name }}]({{ rec.license_url }}){% else %}No license information curated.{% endif %} |
+{% endfor %}{% endif %}
+""")
+
+    license_data = []
+    for source_id, source_info in source_data.items():
+        name = _get_property(source_info, 'name', default_value="No name")
+        if name == "No name":
+            continue
+        matrix_license_name = _get_property_from_source(source_info, 'matrixcurated', 'license_name')
+        matrix_license_url = _get_property_from_source(source_info, 'matrixcurated', 'license_source_link')
+        rec = {
+            'id': source_id,
+            'name': name,
+            'license_name': matrix_license_name,
+            'license_url': matrix_license_url
+        }
+        license_data.append(rec)
+
+    pks_table_docstring = pks_jinja2_template.render(
+        data = license_data,
+    )
+    return pks_table_docstring
