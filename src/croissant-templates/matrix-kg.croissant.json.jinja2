@@ -7,19 +7,10 @@
     "conformsTo": "dct:conformsTo",
     "cr": "http://mlcommons.org/croissant/",
     "rai": "http://mlcommons.org/croissant/RAI/",
-    "data": {
-      "@id": "cr:data",
-      "@type": "@json"
-    },
-    "dataType": {
-      "@id": "cr:dataType",
-      "@type": "@vocab"
-    },
+    "data": { "@id": "cr:data", "@type": "@json" },
+    "dataType": { "@id": "cr:dataType", "@type": "@vocab" },
     "dct": "http://purl.org/dc/terms/",
-    "examples": {
-      "@id": "cr:examples",
-      "@type": "@json"
-    },
+    "examples": { "@id": "cr:examples", "@type": "@json" },
     "extract": "cr:extract",
     "field": "cr:field",
     "fileProperty": "cr:fileProperty",
@@ -45,21 +36,17 @@
     "subField": "cr:subField",
     "transform": "cr:transform"
   },
-  "@type": "sc:Dataset",
+  "@type": "Dataset",
   "name": "Matrix Knowledge Graph",
-    "description": "A merged biomedical knowledge graph derived from RTX-KG2 and ROBOKOP, aligned to the Biolink Model.",
+  "description": "A merged biomedical knowledge graph derived from RTX-KG2 and ROBOKOP, aligned to the Biolink Model.",
   "citeAs": "TBD",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
-  "creator": {
-    "@type": "Organization",
-    "name": "EveryCure / MATRIX",
-    "url": "https://everycure.org"
-  },
+  "creator": { "@type": "Organization", "name": "EveryCure / MATRIX", "url": "https://everycure.org" },
   "dateModified": "{{ date_modified }}",
   "datePublished": "{{ date_published }}",
   "isBasedOn": [
-  { "@type": "Dataset", "name": "RTX-KG2", "url": "https://rtx.ai/kg2" },
-  { "@type": "Dataset", "name": "ROBOKOP", "url": "https://robokop.renci.org" }
+    { "@type": "Dataset", "name": "RTX-KG2", "url": "https://rtx.ai/kg2" },
+    { "@type": "Dataset", "name": "ROBOKOP", "url": "https://robokop.renci.org" }
   ],
   "keywords": ["knowledge graph", "Biolink", "RTX-KG2", "ROBOKOP"],
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -82,29 +69,39 @@
       "encodingFormat": "text/tab-separated-values",
       "sha256": "{{ nodes_sha256 }}"
     }
-  ], 
+  ],
   "recordSet": [
     {
       "@type": "cr:RecordSet",
       "@id": "nodes",
-      "data": { "@type": "cr:Source", "fileObject": { "@id": "nodes.tsv.gz" } },
       "name": "nodes",
       "description": "Biolink nodes table",
       "field": [
         {% for col in nodes_columns %}
-          { "@type": "cr:Field", "name": "{{ col.name }}", "dataType": "{{ col.dataType }}"{% if col.nullable %}, "nullable": true{% endif %} }{% if not loop.last %},{% endif %}
+        {
+          "@type": "cr:Field",
+          "name": "{{ col.name }}",
+          "dataType": "{{ col.dataType }}",
+          {% if col.nullable %}"required": false,{% endif %}
+          "source": { "fileObject": { "@id": "nodes.tsv.gz" }, "extract": { "column": "{{ col.name }}" } }
+        }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
     },
     {
       "@type": "cr:RecordSet",
       "@id": "edges",
-      "data": { "@type": "cr:Source", "fileObject": { "@id": "edges.tsv.gz" } },
       "name": "edges",
       "description": "Biolink edges table",
       "field": [
         {% for col in edges_columns %}
-        { "@type": "cr:Field", "name": "{{ col.name }}", "dataType": "{{ col.dataType }}"{% if col.nullable %}, "nullable": true{% endif %} }{% if not loop.last %},{% endif %}
+        {
+          "@type": "cr:Field",
+          "name": "{{ col.name }}",
+          "dataType": "{{ col.dataType }}",
+          {% if col.nullable %}"required": false,{% endif %}
+          "source": { "fileObject": { "@id": "edges.tsv.gz" }, "extract": { "column": "{{ col.name }}" } }
+        }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
     }
