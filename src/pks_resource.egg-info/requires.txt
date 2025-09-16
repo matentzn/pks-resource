@@ -1,0 +1,9 @@
+pyyaml>=6.0.0
+pandas>=2.0.0
+requests>=2.25.0
+jinja2>=3.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+linkml
+mlcroissant
+matrix_schema
