@@ -139,22 +139,31 @@ def _get_property_from_source(source_info, source, property, default="No value")
 def _format_license(source_info):
     pks_jinja2_template = Template("""#### License information
 
-- **Matrix manual curation**: {%if matrix_license_name is not none %}[{{ matrix_license_name }}]({{ matrix_license_url }}){% else %}No license information curated.{% endif %}
-- **KG Registry**: {%if kg_registry_license_id is not none %}{%if kg_registry_license_name is not none %}[{{ kg_registry_license_name }}]({{ kg_registry_license_id }}){% else %}{{ kg_registry_license_id }}{% endif %}{% else %}No license information available.{% endif %}
-- **Reusable Data**: {%if reusabledata_license is not none %}{{ reusabledata_license }} ({{ reusabledata_license_type | default("Unknown license type") }}){% else %}No license information available.{% endif %}{%if reusabledata_license_issues is not none %}
-   - _Issues_: {{ reusabledata_license_issues }}{% endif %}{%if reusabledata_license_commentary is not none %}
-   - _Commentary_: {{ reusabledata_license_commentary }}{% endif %}
+- **Matrix manual curation**: {%if matrix_license_name is not none %}[{{ matrix_license_name }}]({{ matrix_license_url }}){% else %}No license information curated.{% endif %}{%if kg_registry_license_id is not none %}
+- **KG Registry**: {%if kg_registry_license_name is not none %}[{{ kg_registry_license_name }}]({{ kg_registry_license_id }}){% else %}[{{ kg_registry_license_id }}]({{ kg_registry_license_id }}){% endif %}{% endif %}{%if reusabledata_license is not none %}
+- **Reusable Data**: {{ reusabledata_license }} ({{ reusabledata_license_type | default("Unknown license type") }}){% endif %}{%if reusabledata_license_issues is not none %}
+    - _Issues_: {{ reusabledata_license_issues }}{% endif %}{%if reusabledata_license_commentary is not none %}
+    - _Commentary_: {{ reusabledata_license_commentary }}{% endif %}
 """)
     matrix_license_name = _get_property_from_source(source_info, 'matrixcurated', 'license_name')
     matrix_license_url = _get_property_from_source(source_info, 'matrixcurated', 'license_source_link')
 
     kgregistry_license = _get_property_from_source(source_info, 'kgregistry', 'license')
-    kg_registry_license_name = kgregistry_license['name'] if kgregistry_license is not None and 'name' in kgregistry_license else None
+    kg_registry_license_name = kgregistry_license['label'] if kgregistry_license is not None and 'label' in kgregistry_license else None
     kg_registry_license_id = kgregistry_license['id'] if kgregistry_license is not None and 'id' in kgregistry_license else None
 
     reusabledata_license = _get_property_from_source(source_info, 'reusabledata', 'license')
     reusabledata_license_commentary = _get_property_from_source(source_info, 'reusabledata', 'license-commentary-embeddable')
     reusabledata_license_issues = _get_property_from_source(source_info, 'reusabledata', 'license-issues')
+    reusabledata_license_issues_string = None
+    reusabledata_license_issues_list = []
+    if reusabledata_license_issues is not None:
+        if isinstance(reusabledata_license_issues, list):
+            for issue in reusabledata_license_issues:
+                issue_str = f"{issue['comment']} ({issue['criteria']})"
+                reusabledata_license_issues_list.append(issue_str)
+    if len(reusabledata_license_issues_list) > 0:
+        reusabledata_license_issues_string = "; ".join(reusabledata_license_issues_list)
     reusabledata_license_type = _get_property_from_source(source_info, 'reusabledata', 'license-type')
 
     return pks_jinja2_template.render(
@@ -164,7 +173,7 @@ def _format_license(source_info):
         kg_registry_license_id=kg_registry_license_id,
         reusabledata_license=reusabledata_license,
         reusabledata_license_type=reusabledata_license_type,
-        reusabledata_license_issues=reusabledata_license_issues,
+        reusabledata_license_issues=reusabledata_license_issues_string,
         reusabledata_license_commentary=reusabledata_license_commentary
     )
 
@@ -172,17 +181,18 @@ def _format_review(source_info):
     pks_jinja2_template = Template("""#### Review information for this resource
 
 {%if label_rubric is not none %}
-<details><summary>Expand to see detailed review</summary>
-Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
 
-- **Reviewer**: {{ reviewer }}
-- **Overall review score**:
-   - Reviewer: `{{ label_manual }}` - {{ label_manual_comment }}
-   - Rubric: `{{ label_rubric }}` - {{ label_rubric_rationale }}
-- **Domain Coverage**: `{{ domain_coverage_score }}` - {{ domain_coverage_comments }}
-- **Source Scope**: `{{ source_scope_score }}` - {{ source_scope_score_comment }}
-- **Drug Repurposing Utility**: `{{ utility_drugrepurposing_score }}` - {{ utility_drugrepurposing_comment }}
-</details>
+??? note "Expand to see detailed review"
+
+    Review information was generated specifically for the Matrix project and may not reflect the views of the broader community.
+    
+    - **Reviewer**: {{ reviewer }}
+    - **Overall review score**:
+        - Reviewer: `{{ label_manual }}` - {{ label_manual_comment }}
+        - Rubric: `{{ label_rubric }}` - {{ label_rubric_rationale }}
+    - **Domain Coverage**: `{{ domain_coverage_score }}` - {{ domain_coverage_comments }}
+    - **Source Scope**: `{{ source_scope_score }}` - {{ source_scope_score_comment }}
+    - **Drug Repurposing Utility**: `{{ utility_drugrepurposing_score }}` - {{ utility_drugrepurposing_comment }}
 {% else %}
 No review information available.
 {% endif %}
@@ -220,8 +230,9 @@ _{{ description }}_
 
 {% if urls %}
 **Links**:
+
 {% for url in urls -%}
-- {{ url }}
+- [{{ url }}]({{ url }})
 {% endfor %}{% endif %}
 
 {{ license }}
