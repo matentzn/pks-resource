@@ -10,6 +10,9 @@ dependencies = [
     "jinja2>=3.0.0",
     "jupyter>=1.0.0",
     "ipykernel>=6.0.0",
+    "linkml",
+    "mlcroissant",
+    "matrix_schema",
 ]
 
 [tool.uv.workspace]
