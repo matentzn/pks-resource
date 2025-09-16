@@ -1,0 +1,476 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "Dataset",
+  "name": "Matrix Knowledge Graph",
+  "description": "A merged biomedical knowledge graph derived from RTX-KG2 and ROBOKOP, aligned to the Biolink Model.",
+  "citeAs": "TBD",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "creator": {
+    "@type": "Organization",
+    "name": "EveryCure / MATRIX",
+    "url": "https://everycure.org"
+  },
+  "dateModified": "2025-09-16",
+  "datePublished": "2025-09-16",
+  "isBasedOn": [
+    {
+      "@type": "Dataset",
+      "name": "RTX-KG2",
+      "url": "https://rtx.ai/kg2"
+    },
+    {
+      "@type": "Dataset",
+      "name": "ROBOKOP",
+      "url": "https://robokop.renci.org"
+    }
+  ],
+  "keywords": [
+    "knowledge graph",
+    "Biolink",
+    "RTX-KG2",
+    "ROBOKOP"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://github.com/everycure-org/matrix",
+  "version": "1.0.0",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "edges.tsv.gz",
+      "name": "Matrix KG Edges (TSV)",
+      "contentUrl": "https://example.org/data/edges.tsv.gz",
+      "encodingFormat": "text/tab-separated-values",
+      "sha256": "REPLACE_ME_WITH_ACTUAL_SHA256"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "nodes.tsv.gz",
+      "name": "Matrix KG Nodes (TSV)",
+      "contentUrl": "https://example.org/everykg/nodes.tsv.gz",
+      "encodingFormat": "text/tab-separated-values",
+      "sha256": "REPLACE_ME_WITH_ACTUAL_SHA256"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "nodes",
+      "name": "nodes",
+      "description": "Biolink nodes table",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "name": "id",
+          "dataType": "Text",
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "name",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "category",
+          "dataType": "Text",
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "category"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "description",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "description"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "equivalent_identifiers",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "equivalent_identifiers"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "all_categories",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "all_categories"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "publications",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "publications"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "labels",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "labels"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "international_resource_identifier",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "international_resource_identifier"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "upstream_data_source",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "nodes.tsv.gz"
+            },
+            "extract": {
+              "column": "upstream_data_source"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "edges",
+      "name": "edges",
+      "description": "Biolink edges table",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "name": "primary_knowledge_sources",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "primary_knowledge_sources"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "subject",
+          "dataType": "Text",
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "subject"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "predicate",
+          "dataType": "Text",
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "predicate"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "object",
+          "dataType": "Text",
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "object"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "knowledge_level",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "knowledge_level"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "agent_type",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "agent_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "primary_knowledge_source",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "primary_knowledge_source"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "aggregator_knowledge_source",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "aggregator_knowledge_source"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "publications",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "publications"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "subject_aspect_qualifier",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "subject_aspect_qualifier"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "subject_direction_qualifier",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "subject_direction_qualifier"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "object_aspect_qualifier",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "object_aspect_qualifier"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "object_direction_qualifier",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "object_direction_qualifier"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "upstream_data_source",
+          "dataType": "Text",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "upstream_data_source"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "num_references",
+          "dataType": "Integer",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "num_references"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "num_sentences",
+          "dataType": "Integer",
+          "required": false,
+          "source": {
+            "fileObject": {
+              "@id": "edges.tsv.gz"
+            },
+            "extract": {
+              "column": "num_sentences"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
