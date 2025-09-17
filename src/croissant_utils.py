@@ -126,6 +126,7 @@ def _extract_columns(schemaview: SchemaView, class_name: str) -> List[Dict]:
             {
                 "name": s.name,
                 "dataType": dt,
+                "description": s.description or "",
                 "nullable": bool(nullable),
             }
         )

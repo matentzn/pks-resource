@@ -81,6 +81,7 @@
         {
           "@type": "cr:Field",
           "name": "{{ col.name }}",
+          "description": "{{ col.description }}",
           "dataType": "{{ col.dataType }}",
           {% if col.nullable %}"required": false,{% endif %}
           "source": { "fileObject": { "@id": "nodes.tsv.gz" }, "extract": { "column": "{{ col.name }}" } }
@@ -98,6 +99,7 @@
         {
           "@type": "cr:Field",
           "name": "{{ col.name }}",
+          "description": "{{ col.description }}",
           "dataType": "{{ col.dataType }}",
           {% if col.nullable %}"required": false,{% endif %}
           "source": { "fileObject": { "@id": "edges.tsv.gz" }, "extract": { "column": "{{ col.name }}" } }

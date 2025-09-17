@@ -56,8 +56,8 @@
     "name": "EveryCure / MATRIX",
     "url": "https://everycure.org"
   },
-  "dateModified": "2025-09-16",
-  "datePublished": "2025-09-16",
+  "dateModified": "2025-09-17",
+  "datePublished": "2025-09-17",
   "isBasedOn": [
     {
       "@type": "Dataset",
@@ -107,6 +107,7 @@
         {
           "@type": "cr:Field",
           "name": "id",
+          "description": "A unique identifier for a thing",
           "dataType": "Text",
           "source": {
             "fileObject": {
@@ -120,6 +121,7 @@
         {
           "@type": "cr:Field",
           "name": "name",
+          "description": "Human-readable name of the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -134,6 +136,7 @@
         {
           "@type": "cr:Field",
           "name": "category",
+          "description": "Biolink category of the entity.",
           "dataType": "Text",
           "source": {
             "fileObject": {
@@ -147,6 +150,7 @@
         {
           "@type": "cr:Field",
           "name": "description",
+          "description": "Detailed description of the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -161,6 +165,7 @@
         {
           "@type": "cr:Field",
           "name": "equivalent_identifiers",
+          "description": "List of equivalent identifiers for the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -175,6 +180,7 @@
         {
           "@type": "cr:Field",
           "name": "all_categories",
+          "description": "All categories associated with the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -189,6 +195,7 @@
         {
           "@type": "cr:Field",
           "name": "publications",
+          "description": "Publications associated with the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -203,6 +210,7 @@
         {
           "@type": "cr:Field",
           "name": "labels",
+          "description": "Alternative labels for the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -217,6 +225,7 @@
         {
           "@type": "cr:Field",
           "name": "international_resource_identifier",
+          "description": "IRI of the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -231,6 +240,7 @@
         {
           "@type": "cr:Field",
           "name": "upstream_data_source",
+          "description": "Sources from which this entity's data originates.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -253,6 +263,7 @@
         {
           "@type": "cr:Field",
           "name": "primary_knowledge_sources",
+          "description": "Primary sources from edges merged into this edge.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -267,6 +278,7 @@
         {
           "@type": "cr:Field",
           "name": "subject",
+          "description": "The subject entity in the edge.",
           "dataType": "Text",
           "source": {
             "fileObject": {
@@ -280,6 +292,7 @@
         {
           "@type": "cr:Field",
           "name": "predicate",
+          "description": "The predicate defining the relationship.",
           "dataType": "Text",
           "source": {
             "fileObject": {
@@ -293,6 +306,7 @@
         {
           "@type": "cr:Field",
           "name": "object",
+          "description": "The object entity in the edge.",
           "dataType": "Text",
           "source": {
             "fileObject": {
@@ -306,6 +320,7 @@
         {
           "@type": "cr:Field",
           "name": "knowledge_level",
+          "description": "Knowledge level of the relationship",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -320,6 +335,7 @@
         {
           "@type": "cr:Field",
           "name": "agent_type",
+          "description": "Type of agent involved in the relationship.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -334,6 +350,7 @@
         {
           "@type": "cr:Field",
           "name": "primary_knowledge_source",
+          "description": "Primary source of the knowledge in the edge.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -348,6 +365,7 @@
         {
           "@type": "cr:Field",
           "name": "aggregator_knowledge_source",
+          "description": "Aggregators of the knowledge.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -362,6 +380,7 @@
         {
           "@type": "cr:Field",
           "name": "publications",
+          "description": "Publications associated with the entity.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -376,6 +395,7 @@
         {
           "@type": "cr:Field",
           "name": "subject_aspect_qualifier",
+          "description": "Aspect qualifier for the subject.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -390,6 +410,7 @@
         {
           "@type": "cr:Field",
           "name": "subject_direction_qualifier",
+          "description": "Direction qualifier for the subject.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -404,6 +425,7 @@
         {
           "@type": "cr:Field",
           "name": "object_aspect_qualifier",
+          "description": "Aspect qualifier for the object.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -418,6 +440,7 @@
         {
           "@type": "cr:Field",
           "name": "object_direction_qualifier",
+          "description": "Direction qualifier for the object.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -432,6 +455,7 @@
         {
           "@type": "cr:Field",
           "name": "upstream_data_source",
+          "description": "Sources from which this entity's data originates.",
           "dataType": "Text",
           "required": false,
           "source": {
@@ -446,6 +470,7 @@
         {
           "@type": "cr:Field",
           "name": "num_references",
+          "description": "Number of references supporting this edge.",
           "dataType": "Integer",
           "required": false,
           "source": {
@@ -460,6 +485,7 @@
         {
           "@type": "cr:Field",
           "name": "num_sentences",
+          "description": "Number of sentences supporting this edge.",
           "dataType": "Integer",
           "required": false,
           "source": {
