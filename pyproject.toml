@@ -13,6 +13,8 @@ dependencies = [
     "linkml",
     "mlcroissant",
     "matrix_schema",
+    "python-dotenv",
+    "tabulate"
 ]
 
 [tool.uv.workspace]

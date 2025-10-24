@@ -12,3 +12,5 @@ Requires-Dist: ipykernel>=6.0.0
 Requires-Dist: linkml
 Requires-Dist: mlcroissant
 Requires-Dist: matrix_schema
+Requires-Dist: python-dotenv
+Requires-Dist: tabulate

@@ -7,3 +7,5 @@ ipykernel>=6.0.0
 linkml
 mlcroissant
 matrix_schema
+python-dotenv
+tabulate

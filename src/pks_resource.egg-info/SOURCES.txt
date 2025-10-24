@@ -1,5 +1,6 @@
 README.md
 pyproject.toml
+src/croissant_utils.py
 src/pks_resource.egg-info/PKG-INFO
 src/pks_resource.egg-info/SOURCES.txt
 src/pks_resource.egg-info/dependency_links.txt
